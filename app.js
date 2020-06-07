@@ -402,3 +402,231 @@ var totalLife= (maximumAge - age) * amountOfSnacksPerDay  ;
 //alert(totalLife);
 
 document.write("<br/>You will need " + totalLife + " chocolate chip to last you until the ripe old age of " + maximumAge);
+ 
+
+                // Assignment #6
+
+// Write a program to take a number in a variable, do the required arithmetic to display the following result in your browser:                
+
+var heading = "<br /> <br /> Result:<br/> ";
+     document.write(heading);
+   
+  var a = 10;
+                
+  document.write("The value of is: " + a + "<br/>..............................");
+    
+          //++a;
+                
+    document.write("<br/><br/>The value of ++a is: " +  ++a); //11
+    
+    document.write("<br/>Now the value of a is: " + a);  //11
+    
+    document.write("<br/><br/>The value of a++ is: " + a++); //11
+        
+    document.write("<br/>Now the value of a is: "+ a); // 12
+    
+    document.write("<br/><br/>The value of --a is: "+ --a); //11
+    
+    document.write("<br/>Now the value of a is: "+ a); // 11
+    
+    document.write("<br/><br/>The value of a-- is: " + a--); //11
+    
+    document.write("<br/>Now the value of a is: "+ a); //10               
+
+
+// What will be the output in variables a, b & result after execution of the following script:
+
+var a = 2; // (--a = 1) 
+ 
+var b = 1; // (--b = 0) (++b = 1) (b-- = 1) (b = 0)
+    
+var result = --a - --b + ++b + b--; // 1 - 0 + 1 + 1 =
+    
+    
+  document.write(" <br /> a is " + a); 
+  document.write("<br/> b is " + b);
+  document.write("<br/> result is " + result);   
+
+
+
+               // Assignment # 17-20   chapters
+
+// Declare and initialize a multidimensional array representing the following matrix:               
+
+var arr = [[]];
+
+ arr = [[0, 1, 2, 3],[1, 0, 1, 2], [2, 1, 0, 1]];
+               
+    document.write( "<br /> <br />" + arr[0] + "<br/>" + arr[1] + "<br/>" + arr[2]);
+               
+     document.write("<br/>");
+     document.write("<br/>");               
+
+// Write a program to print multiplication table of any number using for loop. Table number & length should be taken as an input from user.
+
+var num = prompt("Enter your favourite number")
+  
+var lengOfTable = prompt("Enter the length of the table");
+     
+   document.write("Multiplication table of " + num + "<br/>");
+   document.write("Length " + lengOfTable);
+     
+   document.write("<br/>");
+    document.write("<br/>");
+      
+   for (var i = 1;  i <= lengOfTable; i++) {     
+     document.write(num + " x " + i + " = " + num * i + "<br/>");      
+   }
+      document.write("<br/>");
+
+// Write a program to print items of the following array using for loop:   
+      
+ var newArr = ["apple", "banana", "mango", "orange", "strawberry"];
+      
+   for (var i = 0; i < newArr.length; i++) {       
+           document.write(newArr[i] + "<br/>");
+      }
+      
+      document.write("<br/>");
+      
+   for (var u = 0; u < newArr.length; u++) {    
+         document.write("Element at index "+ u + " is " + newArr[u] + "<br/>" );    
+      }
+       
+      document.write("<br/>");
+
+// Generate the following series in your browser. See example output.
+
+  document.write("<b>Counting:</b>" + "<br/>");
+
+   document.write("<br/>");
+   
+  for (var t = 0; t <= 15; t++) {  
+        document.write("  " + t);
+ }    
+    document.write("<br/>");
+    document.write("<br/>");
+   
+ document.write("<b> Reverse Counting: </b>" + "<br/> <br/>") 
+  
+  for (var e = 10; e > 0; e--) {  
+   document.write(e + "  ");   
+ } 
+  
+   document.write("<br/>");
+   document.write("<br/>" +"<b>" + "Even Counting: " + "</b>");
+    document.write("<br/>" + "<br/>");
+  
+  for (var f = 0; f <= 20; f++) {
+     
+      if (f % 2 === 0) {
+      
+      document.write(f + ", ");
+    }
+  }     
+      document.write("<br/>" + "<br/>");
+      document.write("<b>" + "Odd Counting: " + "</b>"); 
+      document.write("<br/>" + "<br/>");    
+  
+  for (var g = 1; g <= 20; g++) {
+
+      if (g % 2 === 1) {
+      
+       document.write(g + ", ");
+      }
+  }     
+      document.write("<br/>" + "<br/>");
+      document.write("<b>" + "Series: " + "</b>"); 
+      document.write("<br/>" + "<br/>");
+       
+  for (var y = 1; y <= 20; y++) {
+  
+    if (y % 2 === 0) {
+    
+    document.write(y + "k"+ ", ");
+    }
+  }
+  
+// Write a program to enable “search by user input” in an array. After searching, prompt the
+// user whether the given item is found in the list or not.           
+
+var userPrompt = prompt("Welcome to ABC Bakery.What do you want to order sir/ma'ma?");
+
+var bakerArr = ["cake", "apple pie","cookie", "chips" , "patties"];
+  
+var myFlag, indeX;
+  
+ for (var i = 0; i < bakerArr.length; i++) {
+
+    if (userPrompt === bakerArr[i]) {
+
+      myFlag = true;
+      indeX = i;
+      break;
+  }
+  
+   else {
+         myFlag = false;
+      }
+     
+ } 
+  
+  if (myFlag === true) {
+      
+      document.write("<br/> <br /> " + userPrompt + " is available at index " + indeX + " in our bakery <br/>");
+     
+  }   
+   
+  else {
+   
+  document.write("<br/>" + "We are sorry." + userPrompt + " is  not available in our bakery <br/> " ); 
+   
+  }
+
+// Write a program to identify the largest number in the given array.
+
+  // Finding the largest number
+
+var numberArray = [24, 53, 78, 91,12];
+
+var largest = numberArray[0];
+
+for (var q = 0; q < numberArray.length; q++) {
+ 
+     if (largest < numberArray[q]) {
+          largest = numberArray[q];
+   }
+}
+        document.write("<br/>");
+      document.write("Largest number is " + largest);
+ 
+      document.write("<br/>");
+    
+ // Write a program to identify the smallest number in the given array.     
+
+ // Finding the smallest number
+ 
+ var newNumArray = [24, 53, 78, 91, 12];
+ 
+ var smallest = newNumArray[0];
+ 
+ for (var w = 0; w < newNumArray.length; w++) {
+ 
+      if (smallest > newNumArray[w]) {
+          smallest = newNumArray[w];
+   }
+}   
+     document.write("Smallest number is " + smallest);
+
+     document.write("<br/> <br />");
+
+// Write a program to print multiples of 5 ranging 1 to 100.     
+
+ for (var i = 1; i <= 100; i++) {
+       
+       if (i % 5 === 0) {               
+        document.write(i + " , ");
+   }
+ }  
+  
+ 
