@@ -447,7 +447,59 @@ var result = --a - --b + ++b + b--; // 1 - 0 + 1 + 1 =
   document.write("<br/> b is " + b);
   document.write("<br/> result is " + result);   
 
+// Write a program that takes input a name from user & greet the user.  
 
+var  name = prompt("What is your name?");
+
+  alert("Hello " + name)
+
+
+
+//  Write a program to take input a number from user & display it’s multiplication table on your browser. If user
+//  does not enter a new number, multiplication table of 5 should be displayed by default.    
+
+var number1 = +prompt("Please enter a number:");
+
+console.log(number1);
+
+  if (number1 ==  0) {
+     var z = 5   
+      for (var i=1; i <= 10; i++) {
+            console.log("<br />" + z + " x " + i + " = " + i*z );
+       }       
+  }
+
+  else {
+      for (var i=1; i <= 10; i++) {
+            console.log("<br />" + number1 + " x " + i + " = " + i*number1 );
+       }
+  }
+
+
+// 
+
+var subject = prompt('Please enter a subjects 1 name ');
+var subject1 = prompt('Please enter a subject 2 name');
+var subject2 = prompt('Please enter a subject 3 name ');
+ 
+ document.write("<br /> <br />", "<b> Subject </b>", "<br />", subject, "<br />", subject1, "<br />", subject2)
+
+
+var obtainedMarks = +prompt('Please enter obtained marks ');
+var obtainedMarks1 = +prompt('Please enter obtained marks');
+var obtainedMarks2 = +prompt('Please enter obtained marks ');
+
+var totalObtainedMarks = obtainedMarks + obtainedMarks1 + obtainedMarks1;
+
+// document.write(`<br /> <br /> <b> Obtained Marks </b> <br /> obtainedMarks, "<br />", obtainedMarks1, "<br />", obtainedMarks2)
+
+var marks = 100; 
+var totalMarks = 300;
+
+var obtainedPercentage = (totalObtainedMarks * marks) / totalMarks;
+
+console.log(obtainedPercentage);
+console.log(totalObtainedMarks);
 
                // Assignment # 17-20   chapters
 
