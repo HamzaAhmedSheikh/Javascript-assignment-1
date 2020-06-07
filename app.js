@@ -233,6 +233,22 @@ var totalPrice= 600*5 ;
 
 document.write(totalPrice);
 
+
+// Write a script to display multiplication table of any number in your browser.
+
+var number = +prompt("Please enter a number:");
+
+var heading = "Table Of " + number;
+document.write("<br /> <br />" + heading)
+
+ for (var i=1; i <= 10; i++) {
+       document.write("<br />" + number + " x " + i + " = " + i*number );
+  }
+
+
+
+
+
 // The Temperature Converter:
 
 var celsiusTemperature= 25;
