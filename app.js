@@ -1,39 +1,39 @@
 
-                    //    Assignment #1
+                    //    Chapter #1
 
-// Write a script to greet your website visitor using JS alert box?
+// Task 1:- Write a script to greet your website visitor using JS alert box?
 
            alert('Hello World');
 
-// Write a script to display following message on your web page:           
+// Task 2:- Write a script to display following message on your web page:           
 
       alert("Error! Please enter a valid password");
 
-// Write a script to display following message on your web page:
+// Task 3:- Write a script to display following message on your web page:
 
      alert("Welcome to JS Land... \n Happ Coding!")
 
-// Write a script to display following messages in sequence:
+// Task 4:- Write a script to display following messages in sequence:
  
    alert("Welcome to JS Land...");
    alert(" Happ Coding!"); 
 
-   // Generate the following message through browser’s  developer console:
+// Task 5:- Generate the following message through browser’s  developer console:
 
      console.log("Hello I can run JS through my web browser's console");
 
-                   // Assignment #2
+                   // Chapter #2
 
-// Declare a variable called username.
+// Task 1:- Declare a variable called username.
 
  var username;
 
-// Declare a variable called myName & assign to it a string that represents your Full Name.
+// Task 2:- Declare a variable called myName & assign to it a string that represents your Full Name.
 
 var myName = "Hamza Ahmed Sheikh";
 
-// Declare a JS variable, titled message. Assign “Hello World” to variable message.
-// Display the message in alert box.
+// Task 3:- Declare a JS variable, titled message. Assign “Hello World” to variable message.
+//          Display the message in alert box.
 
 var message;
 
@@ -41,7 +41,7 @@ message = "Hello World 1";
 
 alert(message);
 
-// Write a script to save student’s bio data in JS variables and  show the data in alert boxes.
+// Task 4:- Write a script to save student’s bio data in JS variables and  show the data in alert boxes.
 
 var name="Johne Doe";
   
@@ -53,13 +53,13 @@ var course="Certified Mobile Application Development";
   alert(age) 
   alert(course);
 
-// Write a script to display the following alert using one JS variable: 
+// Task 5:- Write a script to display the following alert using one JS variable: 
 
 var order="PIZZA\nPIZZ\nPIZ\nPI\nP";
      
     alert(order);
 
-// Declare a variable called email and assign to it a string
+// Task 6:- Declare a variable called email and assign to it a string
 
 var email;
 
@@ -67,7 +67,7 @@ email="hamzaahmedsheikh313@gmail.com";
  
  alert("My email address is " + email);
 
-// Declare a variable called book & give it the value
+// Task 7:- Declare a variable called book & give it the value
 
 var book;
 
@@ -75,25 +75,25 @@ book="A smarter way to learn Javascript";
 
 alert("I am trying to learn from the Book " + book);
 
-// Write a script to display this in browser through JS
+// Task 8:- Write a script to display this in browser through JS
 
 document.write("Yah! I can write HTML content through JavaScript" + "<br />");
 
-// Store following string in a variable and show in alert and  browser through JS
+// Task 9:- Store following string in a variable and show in alert and  browser through JS
 
 var design='▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬';
 
       alert(design);
 
-                    // Assignment #3
+                    // Chapter #3
                   
-// Declare a variable called age & assign to it your age. Show your age in an alert box.      
+// Task 1:- Declare a variable called age & assign to it your age. Show your age in an alert box.      
 
 var age= 19;
 
  alert("I am " + age + " years old")
 
-// Declare & initialize a variable to keep track of how many times a visitor has visited a web page. 
+// Task 2:- Declare & initialize a variable to keep track of how many times a visitor has visited a web page. 
 
 var visted;
  
@@ -101,7 +101,7 @@ visted = "You have visited this site 14 times";
 
 alert(visted);
 
-// Declare a variable called birthYear & assign to it your birth year.
+// Task 3:- Declare a variable called birthYear & assign to it your birth year.
 
 var birthYear;
 
@@ -113,19 +113,21 @@ document.write(age);
 
 document.write("Data type my declared variable is   "+ typeof(birthYear) + "<br /> <br />");
 
+// Task 4:- A visitor visits an online clothing store www.xyzClothing.com . Write a script to store in variables
+//   the following information:
 
 var product="<b>John Doe</b> ordered <b>5 T-shirt(s)</b> on XYZ Clothing store. <br/> <br/>"; 
  
 document.write(product);
 
 
-                 //  Assignment #4
+                 //  Chapter #4
 
- // Declare 3 variables in one statement.
+ // Task 1:- Declare 3 variables in one statement.
  
  var one, two, three;
 
- // Declare 5 legal & 5 illegal variable names.
+ // Task 2:- Declare 5 legal & 5 illegal variable names.
 
  // legal variable names
  
@@ -143,7 +145,7 @@ document.write(product);
 //var alert;
 //var document;
 
-// Display this in your browser
+// Task 3:- Display this in your browser
 
 var rule="<h3>Rules for naming JS variables</h3>";
 
@@ -165,15 +167,17 @@ var jsKeyword="Variable names should not be JS keywords";
     
      document.write(jsKeyword + "<br />");
 
-                  // Assignment #5
+                  // Chapter #5
 
- //    Write a program that take two numbers & add them in a new variable.
+ // Task 1:-   Write a program that take two numbers & add them in a new variable. 
 
  var num1 = 3;
  var num2 = 5;
  var num3 = num1 + num2;
 
  document.write("<br /> Sum of 3 and 5 is " + num3);
+
+ // Task 2:- Repeat task1 for subtraction, multiplication, division & modulus.
 
  var num4 = 3;
  var num5 = 5;
@@ -199,7 +203,7 @@ var jsKeyword="Variable names should not be JS keywords";
 
  document.write("<br /> Modulus of 3 and 5 is " + num15);
 
- // Do the following using JS Mathematic Expressions
+ // Task 3:- Do the following using JS Mathematic Expressions
 
  var add;
 
@@ -222,7 +226,7 @@ add--;
 add=add%3;
 document.write("<br/>The remainder is: "+ add);
 
-//Cost of one movie ticket is 600 PKR. Write a script to store ticket price in a variable & calculate the cost of buying 5 tickets to a movie.
+// Task 4:- Cost of one movie ticket is 600 PKR. Write a script to store ticket price in a variable & calculate the cost of buying 5 tickets to a movie.
 
 var movie="<br/> <br /> Total cost to buy 5 ticket to a movie is PKR "  
         document.write(movie);
@@ -234,7 +238,7 @@ var totalPrice= 600*5 ;
 document.write(totalPrice);
 
 
-// Write a script to display multiplication table of any number in your browser.
+// Task 5:-  Write a script to display multiplication table of any number in your browser.
 
 var number = +prompt("Please enter a number:");
 
@@ -249,7 +253,7 @@ document.write("<br /> <br />" + heading)
 
 
 
-// The Temperature Converter:
+// Task 6:- The Temperature Converter:
 
 var celsiusTemperature= 25;
 
@@ -265,7 +269,7 @@ var celsius= (fahrenheiTemperature-32)*5/9;
    document.write("<br/>70°F is " + celsius + "°C" );
 
 
-// Write a program to implement checkout process of a shopping cart system for an e-commerce website.
+// Task 7:- Write a program to implement checkout process of a shopping cart system for an e-commerce website.
 
 var headingZero="<h3>Shopping Cart</h3>"
 
@@ -298,7 +302,7 @@ var headingZero="<h3>Shopping Cart</h3>"
     document.write("<br/> <br /> Total Cost of your order " + totalCost);
 
 
-// Store total marks & marks obtained by a student in 2 variables. Compute the percentage & show the result in your browser
+// Task 8:- Store total marks & marks obtained by a student in 2 variables. Compute the percentage & show the result in your browser
 
 var heading="<h3>Marks Sheet</h3>"
 
@@ -317,7 +321,7 @@ var totalPercentage= mark * 100 / totalMark;
 
 document.write("<br/>Percentage: "+totalPercentage + "%");
 
-// Write a script to convert the total currency to Pakistani Rupees.
+// Task 9:- Write a script to convert the total currency to Pakistani Rupees.
 
 var headingOne="<h3>Currency in PKR</h3>"
 
@@ -339,7 +343,17 @@ var convertInPK= usDollar * dollarRateInRs + saRiyal * riyalRateInRs;
 
 document.write("<br/>Total Currency in PKR: " + convertInPK);
 
-// The Age Calculator:
+// Task 10:- Write a program to initialize a variable with some number and do arithmetic in following sequence:
+          // Note :- Perform all calculations in a single expression
+
+var numbers = 8;
+
+var cal = numbers + 5 * 10 / 2;
+
+ alert("Perform all calculations in a single expression " + cal);
+
+
+// Task 11:- The Age Calculator:
 
 var headingTwo="<h3>Age Calculator</h3>"
 
@@ -357,7 +371,7 @@ var yourAge= currentYear - birthYear;
 
 document.write("<br/>Your Age: " + yourAge);
 
-// The Geometrizer: Calculate properties of a circle. Store a radius into a variable.
+// Task 12:- The Geometrizer: Calculate properties of a circle. Store a radius into a variable.
 
 var headingThree="<h3>The Geometrizer</h3>"
 
@@ -375,7 +389,7 @@ var areaOfCircle= (pie) * (radiusOfCircle**2);
 
 document.write("<br/>The area is: " + areaOfCircle);
 
-// The Lifetime Supply Calculator
+// Task 13:- The Lifetime Supply Calculator
 
 var headingFour="<h3>The Lifetime Supply Calculator</h3>"
  
@@ -404,9 +418,9 @@ var totalLife= (maximumAge - age) * amountOfSnacksPerDay  ;
 document.write("<br/>You will need " + totalLife + " chocolate chip to last you until the ripe old age of " + maximumAge);
  
 
-                // Assignment #6
+                // Chapter #6
 
-// Write a program to take a number in a variable, do the required arithmetic to display the following result in your browser:                
+// Task 1:-  Write a program to take a number in a variable, do the required arithmetic to display the following result in your browser:                
 
 var heading = "<br /> <br /> Result:<br/> ";
      document.write(heading);
@@ -434,7 +448,7 @@ var heading = "<br /> <br /> Result:<br/> ";
     document.write("<br/>Now the value of a is: "+ a); //10               
 
 
-// What will be the output in variables a, b & result after execution of the following script:
+// Task 2:-  What will be the output in variables a, b & result after execution of the following script:
 
 var a = 2; // (--a = 1) 
  
@@ -447,7 +461,7 @@ var result = --a - --b + ++b + b--; // 1 - 0 + 1 + 1 =
   document.write("<br/> b is " + b);
   document.write("<br/> result is " + result);   
 
-// Write a program that takes input a name from user & greet the user.  
+// Task 3:- Write a program that takes input a name from user & greet the user.  
 
 var  name = prompt("What is your name?");
 
@@ -455,8 +469,8 @@ var  name = prompt("What is your name?");
 
 
 
-//  Write a program to take input a number from user & display it’s multiplication table on your browser. If user
-//  does not enter a new number, multiplication table of 5 should be displayed by default.    
+// Task 4:- Write a program to take input a number from user & display it’s multiplication table on your browser. If user
+//           does not enter a new number, multiplication table of 5 should be displayed by default.    
 
 var number1 = +prompt("Please enter a number:");
 
@@ -476,7 +490,7 @@ console.log(number1);
   }
 
 
-// 
+// Task 5:-
 
 var subject = prompt('Please enter a subjects 1 name ');
 var subject1 = prompt('Please enter a subject 2 name');
@@ -501,26 +515,40 @@ var obtainedPercentage = (totalObtainedMarks * marks) / totalMarks;
 console.log(obtainedPercentage);
 console.log(totalObtainedMarks);
 
-               // Assignment # 17-20   chapters
+                      // Chapter #9-10
+                      
+                      // Chapter #12-13
 
-// Declare and initialize a multidimensional array representing the following matrix:               
+                      // Chapter #13-15
+
+               // Chapter #17-20   
+
+// Task 1:- Declare and initialize an empty multidimensional array. (Array of arrays)
 
 var arr = [[]];
+
+// Task 2:- Declare and initialize a multidimensional array representing the following matrix: 
 
  arr = [[0, 1, 2, 3],[1, 0, 1, 2], [2, 1, 0, 1]];
                
     document.write( "<br /> <br />" + arr[0] + "<br/>" + arr[1] + "<br/>" + arr[2]);
                
      document.write("<br/>");
-     document.write("<br/>");               
+     document.write("<br/>");          
+     
+// Task 3:- Write a program to print numeric counting from 1 to 10.
 
-// Write a program to print multiplication table of any number using for loop. Table number & length should be taken as an input from user.
+   for(var j=0; j <= 10; j++) {
+     document.write("<br />" + j);
+   }
+
+//Task 4:- Write a program to print multiplication table of any number using for loop. Table number & length should be taken as an input from user.
 
 var num = prompt("Enter your favourite number")
   
 var lengOfTable = prompt("Enter the length of the table");
      
-   document.write("Multiplication table of " + num + "<br/>");
+   document.write('<br />' + "Multiplication table of " + num + "<br/>");
    document.write("Length " + lengOfTable);
      
    document.write("<br/>");
@@ -531,7 +559,7 @@ var lengOfTable = prompt("Enter the length of the table");
    }
       document.write("<br/>");
 
-// Write a program to print items of the following array using for loop:   
+// Task 5:- Write a program to print items of the following array using for loop:   
       
  var newArr = ["apple", "banana", "mango", "orange", "strawberry"];
       
@@ -547,7 +575,7 @@ var lengOfTable = prompt("Enter the length of the table");
        
       document.write("<br/>");
 
-// Generate the following series in your browser. See example output.
+// Task 6:- Generate the following series in your browser. See example output.
 
   document.write("<b>Counting:</b>" + "<br/>");
 
@@ -599,7 +627,7 @@ var lengOfTable = prompt("Enter the length of the table");
     }
   }
   
-// Write a program to enable “search by user input” in an array. After searching, prompt the
+// Task 7:-  Write a program to enable “search by user input” in an array. After searching, prompt the
 // user whether the given item is found in the list or not.           
 
 var userPrompt = prompt("Welcome to ABC Bakery.What do you want to order sir/ma'ma?");
@@ -635,7 +663,7 @@ var myFlag, indeX;
    
   }
 
-// Write a program to identify the largest number in the given array.
+// Task 8:-  Write a program to identify the largest number in the given array.
 
   // Finding the largest number
 
@@ -654,7 +682,7 @@ for (var q = 0; q < numberArray.length; q++) {
  
       document.write("<br/>");
     
- // Write a program to identify the smallest number in the given array.     
+ // Task 9:- Write a program to identify the smallest number in the given array.     
 
  // Finding the smallest number
  
@@ -672,7 +700,7 @@ for (var q = 0; q < numberArray.length; q++) {
 
      document.write("<br/> <br />");
 
-// Write a program to print multiples of 5 ranging 1 to 100.     
+// Task 10:- Write a program to print multiples of 5 ranging 1 to 100.     
 
  for (var i = 1; i <= 100; i++) {
        
