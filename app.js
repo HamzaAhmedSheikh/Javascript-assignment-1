@@ -516,6 +516,155 @@ console.log(obtainedPercentage);
 console.log(totalObtainedMarks);
 
                       // Chapter #9-10
+
+// Task 1:- Write a program to take “city” name as input from user. If user enters “Karachi”, 
+//          welcome the user like this:      
+
+
+var users = prompt("What is your city Name")
+
+  if(users == "Karachi") {
+    // alert("Welcome to city of lights")    
+  }
+
+  else if(users == "") {
+    // alert("Please fill an input")
+  }
+  
+  else {
+    //  alert("Welcome to " + users + " have a safe journey.")
+  }
+
+// Task 2:- Write a program to take “gender” as input from user. If the user is male, give the message:
+//          Good Morning Sir. If the user is female, give the message: Good Morning Ma’am.  
+
+
+var gender = prompt("What is your gender?")
+
+  if(gender == 'male') {
+    // alert("Good Morning Sir")
+  }
+
+  else if (gender == "female") {
+    // alert("Good Morning Ma’am. ")
+  }  
+  else {
+    // alert("Please fill a gender input");
+  }
+
+// Task 3:- Write a program to take input color of road traffic signal from the user &
+//          show the message according to this table:  
+
+var signalColors = prompt("What is the color of traffic signal?")
+
+  if(signalColors == "red") {
+    // alert("Must Stop");
+  }
+
+  else if(signalColors == "yellow") {
+    // alert("Ready to move");
+  }
+
+  else if(signalColors == "green") {
+    // alert("Move Now");
+  }
+  else {
+    // alert("Please fill an input")
+  }
+
+// Task 4:- Write a program to take input remaining fuel in car (in litres) from user. If the current fuel
+//          is less than 0.25litres, show the message “Please refill the fuel in your car”
+
+  var fuel = +prompt("Please fill your remaining fuel in car (in litres)?")
+
+    if(fuel < 0.25) {
+      // alert("Please refill the fuel in your car")
+    }
+    else {
+      // alert("Your tank is full")
+    }
+
+//Task 5:- Run this script, & check whether alert message would be displayed or not. Record the outputs.
+
+var a = 4;
+    if (++a === 5) { //   a = 4 ++a = 4 + 1 = 5 5 === 5t  
+       alert("given condition for variable a is true"); //  a = 4 ++a = 4 + 1 = 5 Ans 5 === 5 true
+    }
+
+var b = 82;
+    if (b++ === 83){
+          alert("given condition for variable b is true"); // false because of post increment
+    }
+var c = 12;
+    if (c++ === 13){
+      alert("condition 1 is true"); // false because of post increment
+}
+    if (c === 13){
+      alert("condition 2 is true"); // because after post increment of c value of c is 13 so 13 === 13 true
+   }
+
+    if (++c < 14){
+      alert("condition 3 is true"); // because pre increment c = 14 or 14 < 14 = false
+   }
+   
+   if(c === 14){
+     alert("condition 4 is true"); // c = 14 or 14 === 14 true      
+    }
+
+var materialCost = 20000;
+var laborCost = 2000;
+var totalCost = materialCost + laborCost;
+
+if (totalCost === laborCost + materialCost){
+ alert("The cost equals"); // because 22000 === 22000 is true
+}
+  if (true){
+   alert("True"); // in the if condition is true so if block will execute 
+} 
+
+ if (false){
+  alert("False");
+}
+
+ if("car" < "cat"){
+   alert("car is smaller than cat");  // r = 18 is less than t = 20 = true
+}
+
+// Task 6:- Write a program to take input the marks obtained in three subjects & total marks. Compute & show the
+//          resulting percentage on your page.
+
+ 
+var classSubjectsMarks = +prompt("What is obtained marks in three subjects?")
+
+var totalMarks = +prompt("What is the total marks in three subjects?")
+
+var percentage = classSubjectsMarks * 100 / totalMarks;
+
+  document.write("<h3> Marks Sheet </h3>")
+
+     if (percentage >= 80) {
+       document.write("<br />" + "Total marks: " +  totalMarks);
+       document.write(" <br />  Marks obtained ", + classSubjectsMarks + "<br />");
+       document.write("Percentage: " + percentage)
+       document.write("Grade: A-one <br />" + "Remarks: " + " Excellect");
+     } 
+
+     else if (percentage >= 70) {
+      document.write("<br />" + "Total marks: " +  totalMarks);
+      document.write(" <br />  Marks obtained ", + classSubjectsMarks + "<br />");
+      document.write("Percentage: " + percentage)
+      document.write("Grade: A <br />" + "Remarks: " + " Good");
+    }
+
+     else if(percentage >= 60) {
+      document.write("<br />" + "Total marks: " +  totalMarks);
+      document.write(" <br />  Marks obtained ", + classSubjectsMarks + "<br />");
+      document.write("Percentage: " + percentage + "<br />")
+      document.write("Grade: B <br />" + "Remarks: " + " You need to improve");
+    }     
+     else {
+      document.write("Fail " + " Sorry")       
+     }
                       
                       // Chapter #12-13
 
