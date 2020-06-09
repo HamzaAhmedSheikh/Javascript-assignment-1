@@ -665,8 +665,105 @@ var percentage = classSubjectsMarks * 100 / totalMarks;
      else {
       document.write("Fail " + " Sorry")       
      }
-                      
+
+// Task 7:- Guess game: Store a secret number (ranging from 1 to 10) in a variable.
+ //         Prompt user to guess the secret number.    
+ 
+ var secretNumber = 4;
+
+var guessANum = +prompt("Please guess the secret number (ranging from 1 to 10).");
+
+var number2 = guessANum + 1;
+   
+    if(guessANum === secretNumber) {
+         alert("Bingo! Correct answer");
+    }
+    else if(number2 >= secretNumber) {
+      alert("Close enough to the correct answer.");
+    } 
+    else {
+      alert("Try again")
+    }
+
+// Task 8:- Write a program to check whether the given number is divisible by 3.
+//          Show the message to the user if the number is divisible by 3.
+
+ var divideNum = +prompt("Please enter a number to divisble by 3");
+
+     if (divideNum % 3 == 0) {
+         alert("The number is " + divideNum +  " divisible by 3 ");
+}
+     else {
+         alert("The number is not divide by 3 ")
+}
+
+// Task 9:- Write a program that checks whether the given input is an even number or an odd number.
+
+var evenOdd = +prompt("Please enter a number");
+
+    if (evenOdd % 2 == 0) {
+        alert("The number " + evenOdd + " is even");
+      }
+    else {
+        alert("The number " + evenOdd + " is odd");
+      }
+
+// Task 10:-  Write a program that takes temperature as input and shows a message based on following criteria 
+
+var temperature = prompt("Please enter your city's temperature");
+
+    if (temperature > 40) {
+
+      alert("It is too hot outside.")  
+    }
+    else if(temperature > 30) {
+
+      alert("The Weather today is Normal.")
+    }
+    else if(temperature > 20) {
+      
+      alert("Today’s Weather is cool.")
+    }
+    else if(temperature > 10) {
+
+      alert("OMG! Today’s weather is so Cool.")
+    }    
+    else {
+      alert("Please fill an input")      
+    }
+
+// Task 11:- Write a program to create a calculator for +,-,*, / & %  using if statements.   
+
+var val1 = +prompt("enter your first value");
+var sign =  prompt("enter your operator");
+var val2 = +prompt("enter your second value");
+
+    if (sign == '+') { //
+
+      alert(val1 + val2);   
+    }
+    else if(sign == '-') {
+
+      alert(val1 - val2);
+    }
+    else if(sign === '*') {
+
+      alert(val1 * val2);      
+    }
+    else if(sign === '/') {
+
+      alert(val1 / val2);      
+    }
+    else if(sign === '%') {
+
+      alert(val1 % val2);      
+    }
+    else {
+      alert('Please fill an input') 
+    }                   
                       // Chapter #12-13
+
+                      
 
                       // Chapter #13-15
 
