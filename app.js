@@ -740,7 +740,7 @@ var val2 = +prompt("enter your second value");
 
     if (sign == '+') { //
 
-      alert(val1 + val2);   
+      alert(val1 + val2);    
     }
     else if(sign == '-') {
 
@@ -763,7 +763,61 @@ var val2 = +prompt("enter your second value");
     }                   
                       // Chapter #12-13
 
-                      
+// Task 1:- Write a program that takes a character (number or string) in a variable & checks whether 
+//          the given input is a number, uppercase letter or lower case letter. (Hint: ASCII codes:- A=65, Z=90, a=97, z=122).                      
+
+  // var character = +prompt("Please enter a character (number or string)")
+
+  //       if(character == 65 || character == 66 || character == 67 || character == 68 || character == 69 ||
+  //          character == 70 || character == 71 || character == 72 || character == 73 || character == 74 ||
+  //          character == 75 || character == 76 || character == 77 || character == 78 || character == 79) {
+             
+  //           alert("Your character is upper case " + character)
+  //          }
+
+  //       else {
+  //         alert("not working")
+  //       } 
+
+// Task 2:- Write a JavaScript program that accept two integers and 
+//          display the larger. Also show if the two integers are equal.  
+
+ 
+  var int1 = +prompt("Give the number ")
+  var int2 = +prompt("Give the numbers 1")
+
+    if(int1 >= int2) {
+
+      console.log("Larger number is " + int1)
+
+      if(int1 == int2) {
+        console.log("The numbers are equal")
+      }
+    }
+
+    else {
+      alert("not working")
+    }
+
+//Task 3:-  Write a program that takes input a number from user &
+//          state whether the number is positive, negative or zero.
+
+//  var  numberFromUser = +prompt("Please input a number");
+
+//    console.log(typeof(numberFromUser));
+
+
+// Task 6: This if/else statement does not work. Try to fix it:
+
+var greeting;
+var hour = 13;
+       
+         if (hour < 18) {
+            greeting = "Good day";
+         }  // bracker }   <===
+         else {
+           greeting = "Good evening";
+         } // bracker }   <===
 
                       // Chapter #13-15
 
