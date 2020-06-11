@@ -766,18 +766,15 @@ var val2 = +prompt("enter your second value");
 // Task 1:- Write a program that takes a character (number or string) in a variable & checks whether 
 //          the given input is a number, uppercase letter or lower case letter. (Hint: ASCII codes:- A=65, Z=90, a=97, z=122).                      
 
-  // var character = +prompt("Please enter a character (number or string)")
+  //  var ch = prompt("Please enter a character (number or string)")
 
-  //       if(character == 65 || character == 66 || character == 67 || character == 68 || character == 69 ||
-  //          character == 70 || character == 71 || character == 72 || character == 73 || character == 74 ||
-  //          character == 75 || character == 76 || character == 77 || character == 78 || character == 79) {
-             
-  //           alert("Your character is upper case " + character)
-  //          }
-
-  //       else {
-  //         alert("not working")
-  //       } 
+  //   if(ch >= 65 && ch <= 90) {
+  //        alert("Upper Case")
+  //   }
+  //   else {
+  //      alert('not working')
+  //   }
+  
 
 // Task 2:- Write a JavaScript program that accept two integers and 
 //          display the larger. Also show if the two integers are equal.  
@@ -802,9 +799,37 @@ var val2 = +prompt("enter your second value");
 //Task 3:-  Write a program that takes input a number from user &
 //          state whether the number is positive, negative or zero.
 
-//  var  numberFromUser = +prompt("Please input a number");
+var number = prompt("Pick a number?");
 
-//    console.log(typeof(numberFromUser));
+var sign = number > 0 ? 1 : number == 0 ? 0 : -1;
+
+    if (sign == 1){
+
+       alert("Oh  your number is so big!" + " " + number);
+    }
+    else if (sign == 0){
+
+      alert("Hey, there's nothing there!" + " " + number);
+    }
+    else if (sign == -1){
+
+      alert("Wow, that thing's so small it might be negative!" + " " + number);
+    }
+
+// Task 4:-Write a program that takes a character (i.e. string of length 1) and returns true if it is a vowel, false otherwise
+    
+ var vowel = prompt("Enter a vowel");
+
+      if (vowel == 'a'|| vowel =='i'|| vowel == 'e'|| vowel =='o' || vowel == 'u') {
+        alert("The character is a Vowel");
+      }
+      else {
+        alert("The character is a Consonant");
+      }
+
+
+
+
 
 
 // Task 6: This if/else statement does not work. Try to fix it:
