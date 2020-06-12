@@ -917,12 +917,151 @@ var mixedArr = ["Hello", 1 , 2 , 3, "World", true, false]
 
 // Task 7:- Declare and Initialize an array and store available education qualifications in Pakistan.
 
-var qualificationsArr = ["SSC", "HSC", "BCS",  "BS", "BCOM", "MS", "M. Phil", "PhD"]
+document.write("<h3>  Qualifications </h3>");
 
-      document.write("<br /> <br />" + "<h2> Qualifications: </h2>")
-      document.write(qualificationsArr[0] + "<br />" + qualificationsArr[1] + "<br />" + qualificationsArr[2] + '<br />' +
-                     qualificationsArr[3] + "<br />" + qualificationsArr[4] + "<br />" + qualificationsArr[5] + '<br />' +
-                     qualificationsArr[6] + "<br />" + qualificationsArr[7] )
+var a = 1;
+
+var degreeArr = ["SSC", "HSC", "BCS" , "BS", "BCOM", "MS", 
+"M. Phil", "PhD"];
+
+for (var i = 0; i < degreeArr.length; i++) {
+
+ document.write(a++ +")" + " " + degreeArr[i]  + "<br/>");
+} 
+
+
+// Task 8:-Write a program to store 3 student names in an array.Take another array to store score of these three students.
+//        Assume that total marks are 500 for each student.
+
+var studentNames = ["Michael", "John", "Tony"];
+var studentScore = [500 , 500, 500]
+
+// Task 9:-Initialize an array with color names. Display the array elements in your browser. 
+
+var colorNames = ["Aqua", "BurlyWood", "Crimson"];
+
+      document.write("<h2> Color Names </h2>")
+
+ for (var i = 0; i < colorNames.length; i++) {
+  
+      document.write(colorNames[i] + "<br/>");      
+  }
+  
+// Ask the user what color he/she wants to add to the beginning & add that color to the beginning of the array.
+                
+           document.write("<br/>");
+
+var promptOne = prompt("What color he/she wants to add to the starting?");
+
+         colorNames.unshift(promptOne);
+
+     for (var o = 0; o < colorNames.length; o++) {
+       
+        document.write(colorNames[o] + "<br/>");        
+  }  
+
+// Ask the user what color he/she wants to add to the end & add that color to the end of the array.  
+
+             document.write("<br/>");             
+ 
+var promptTwo = prompt("What color he/she wants to add to the end");
+
+        colorNames.push(promptTwo);
+            
+     for (var u = 0; u < colorNames.length; u++) { 
+         
+       document.write(colorNames[u] + "<br/>");
+    }  
+     
+      document.write("<br />")
+
+//  Add two more color to the beginning of the array.     
+
+       colorNames.unshift("DarkGreen" + "<br />" + "DodgerBlue");         
+         
+               document.write(colorNames + "<br />");
+               document.write("<br />")
+
+// Delete the first color in the array. Delete the last color in the array.        
+   
+             colorNames.shift();
+
+     for(var a = 0; a < colorNames.length; a++) {
+       
+        document.write(colorNames[a] + "<br/>");
+     }     
+           document.write("<br />")
+
+             colorNames.pop();
+
+     for (var g = 0; g < colorNames.length; g++) {
+       
+       document.write(colorNames[g] + "<br/>");
+    }  
+
+     document.write("<br />")
+      
+// 
+
+var proThree = prompt("Enter the Color name you want to add:");
+
+var p1 = prompt("Enter the position after which you want to add the " + proThree + " color :");
+
+          colorNames.splice(p1, 0, proThree);
+
+    for (i = 0; i < colorNames.length; i++){
+
+     document.write(colorNames[i] + "<br />");}
+
+        document.write("<br/>");
+        
+  
+var proFour = prompt("which index he/she wants to delete colors");
+
+   var x =  colorNames.slice(proFour);
+
+   for (var z = 0; z < x.length; z++) {
+
+     document.write(x[z] + "<br/>");     
+}
+
+// Task 10:- Write a program to store student scores in an array &sort the array in ascending order  
+
+var studentScore = [320, 230, 480, 120];
+
+       document.write("<br />" + "<b> Scores Of Students: </b>" + studentScore[0] + "," + studentScore[1] +
+                      "," + studentScore[2] + "," + studentScore[3])
+
+         
+var ascendingOrder =  studentScore.reverse().sort()        
+
+      document.write("<br />" + " <b> Ordered Scores Of Students: </b>" + ascendingOrder + "<br />")
+
+// Task 11:- Write a program to initialize an array with city names. Copy 3 array elements from cities array to selectedCities array.
+
+var citiesList = ["Karachi","Lahore","Islamabad","Quttea","Peshawar"]
+
+                document.write(" <b> Cities List: </b> " + "<br />" + citiesList + "<br />")
+ 
+     
+var selectedCities = citiesList.slice(2, 4);
+ 
+            document.write("<b> Selected Cities List </b>" + "<br />" + selectedCities + "<br /> <br />" )
+
+// Task 12:- Write a program to create a single string from the below mentioned array: (Use array’s join method)
+
+var arr = ["This", "is" ,  "my" ,  "cat"];      
+
+      document.write("<b> Array </b> " + "<br />" + arr + "<br /> <br />");
+
+var arr1 =  arr.join(" ");
+  
+      document.write("<b> String </b>" + "<br />" + arr1)
+     
+// Task 13:- Create a new array. Store values one by one in such a way that you can access the values in the order 
+//           in which they were stored. (FIFO-First In First Out)
+
+
 
 
 
