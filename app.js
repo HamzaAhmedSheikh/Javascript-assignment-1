@@ -827,10 +827,24 @@ var sign = number > 0 ? 1 : number == 0 ? 0 : -1;
         alert("The character is a Consonant");
       }
 
+// Task 5:- Write a program that store correct password in a JS variable. Asks user to enter his/her password
+//          Validate the two passwords:
 
 
+var password = "hamza12345678";
 
+var login = prompt(" Please enter his/her correct password ")
+var confirmPassword = prompt("Please enter confirm password")
 
+    if(password == login && password == confirmPassword) {
+      alert("“Correct! The password you entered matches the original password”.")
+    } 
+    else if(login == "" && confirmPassword == "") {
+      alert("Please enter your password")
+    }   
+    else {
+      alert("Incorrect password")
+    }
 
 // Task 6: This if/else statement does not work. Try to fix it:
 
@@ -843,6 +857,37 @@ var hour = 13;
          else {
            greeting = "Good evening";
          } // bracker }   <===
+
+
+// Task 7:- Write a program that takes time as input from user in 24 hours clock format like: 1900 = 7pm.  
+
+var time = +prompt("Please enter time in 24 hours clock format like: 1900 = 7pm")
+
+   if (time >= 0000 && time < 1200 ) {
+     
+        alert("Good Morning!")
+   }
+   else if(time >= 1200 && time < 1700) {
+
+       alert("Good Afternoon!")
+   }
+   else if(time >= 1700 && time < 2100) {
+
+      alert("Good Evening!")
+   }
+   else if(time >= 2100 && time <= 2359) {
+      
+      alert("Good Night!")
+   }
+   else if(time == "") {
+     
+      alert("Enter a correct format time")
+   }
+   else {
+
+     alert("Enter a correct format time")
+   }
+
 
                       // Chapter #13-15
 
