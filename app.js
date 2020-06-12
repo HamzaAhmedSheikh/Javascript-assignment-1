@@ -891,6 +891,42 @@ var time = +prompt("Please enter time in 24 hours clock format like: 1900 = 7pm"
 
                       // Chapter #13-15
 
+// Task 1:- Declare an empty array using JS literal notation to store student names in future.
+
+var studentNames = [];
+
+// Task 2:- Declare an empty array using JS object notation to store student names in future.
+
+var studentNames = {};
+
+// Task 3:- Declare and initialize a strings array.
+
+var stringArr = ["Hello", "World", "Hamza"];
+
+// Task 4:- Declare and initialize a numbers array.
+
+var numArr = [1, 2, 3, 4, 5];
+
+// Task 5:- Declare and initialize a boolean array.
+
+var booleanArr = [true, false];
+
+// Task 6:- Declare and initialize a mixed array.
+
+var mixedArr = ["Hello", 1 , 2 , 3, "World", true, false]
+
+// Task 7:- Declare and Initialize an array and store available education qualifications in Pakistan.
+
+var qualificationsArr = ["SSC", "HSC", "BCS",  "BS", "BCOM", "MS", "M. Phil", "PhD"]
+
+      document.write("<br /> <br />" + "<h2> Qualifications: </h2>")
+      document.write(qualificationsArr[0] + "<br />" + qualificationsArr[1] + "<br />" + qualificationsArr[2] + '<br />' +
+                     qualificationsArr[3] + "<br />" + qualificationsArr[4] + "<br />" + qualificationsArr[5] + '<br />' +
+                     qualificationsArr[6] + "<br />" + qualificationsArr[7] )
+
+
+
+
                // Chapter #17-20   
 
 // Task 1:- Declare and initialize an empty multidimensional array. (Array of arrays)
