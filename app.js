@@ -740,11 +740,10 @@ var val2 = +prompt("enter your second value");
     }
     else {
       // alert('Please fill an input') 
-    }                   
-                      // Chapter #12-13
-
-// Task 1:- Write a program that takes a character (number or string) in a variable & checks whether 
-//          the given input is a number, uppercase letter or lower case letter. (Hint: ASCII codes:- A=65, Z=90, a=97, z=122).                      
+    }   
+    
+                   
+// =======> Chapter #12-13 and Task #1                    
 
   //  var ch = prompt("Please enter a character (number or string)")
 
@@ -754,12 +753,10 @@ var val2 = +prompt("enter your second value");
   //   else {
   //      alert('not working')
   //   }
+
+ // =======> Chapter #12-13 and Task #2     
+
   
-
-// Task 2:- Write a JavaScript program that accept two integers and 
-//          display the larger. Also show if the two integers are equal.  
-
- 
   var int1 = +prompt("Give the number ")
   var int2 = +prompt("Give the numbers 1")
 
@@ -776,8 +773,7 @@ var val2 = +prompt("enter your second value");
       // alert("not working")
     }
 
-//Task 3:-  Write a program that takes input a number from user &
-//          state whether the number is positive, negative or zero.
+// =======> Chapter #12-13 and Task #3
 
 var number = prompt("Pick a number?");
 
@@ -796,7 +792,7 @@ var sign = number > 0 ? 1 : number == 0 ? 0 : -1;
       // alert("Wow, that thing's so small it might be negative!" + " " + number);
     }
 
-// Task 4:-Write a program that takes a character (i.e. string of length 1) and returns true if it is a vowel, false otherwise
+// =======> Chapter #12-13 and Task #4
     
  var vowel = prompt("Enter a vowel");
 
@@ -807,8 +803,7 @@ var sign = number > 0 ? 1 : number == 0 ? 0 : -1;
         // alert("The character is a Consonant");
       }
 
-// Task 5:- Write a program that store correct password in a JS variable. Asks user to enter his/her password
-//          Validate the two passwords:
+// =======> Chapter #12-13 and Task #5
 
 
 var password = "hamza12345678";
@@ -826,7 +821,7 @@ var confirmPassword = prompt("Please enter confirm password")
       // alert("Incorrect password")
     }
 
-// Task 6: This if/else statement does not work. Try to fix it:
+// =======> Chapter #12-13 and Task #6
 
 var greeting;
 var hour = 13;
@@ -839,7 +834,7 @@ var hour = 13;
          } // bracker }   <===
 
 
-// Task 7:- Write a program that takes time as input from user in 24 hours clock format like: 1900 = 7pm.  
+// =======> Chapter #12-13 and Task #7  
 
 var time = +prompt("Please enter time in 24 hours clock format like: 1900 = 7pm")
 
@@ -867,35 +862,33 @@ var time = +prompt("Please enter time in 24 hours clock format like: 1900 = 7pm"
 
      alert("Enter a correct format time")
    }
+   
 
-
-                      // Chapter #13-15
-
-// Task 1:- Declare an empty array using JS literal notation to store student names in future.
+// =======> Chapter #13-15 and Task #1 
 
 var studentNames = [];
 
-// Task 2:- Declare an empty array using JS object notation to store student names in future.
+// =======> Chapter #13-15 and Task #2
 
 var studentNames = {};
 
-// Task 3:- Declare and initialize a strings array.
+// =======> Chapter #13-15 and Task #3
 
 var stringArr = ["Hello", "World", "Hamza"];
 
-// Task 4:- Declare and initialize a numbers array.
+// =======> Chapter #13-15 and Task #4
 
 var numArr = [1, 2, 3, 4, 5];
 
-// Task 5:- Declare and initialize a boolean array.
+// =======> Chapter #13-15 and Task #5
 
 var booleanArr = [true, false];
 
-// Task 6:- Declare and initialize a mixed array.
+// =======> Chapter #13-15 and Task #6
 
 var mixedArr = ["Hello", 1 , 2 , 3, "World", true, false]
 
-// Task 7:- Declare and Initialize an array and store available education qualifications in Pakistan.
+// =======> Chapter #13-15 and Task #7
 
 // document.write("<h3>  Qualifications </h3>");
 
@@ -909,14 +902,13 @@ for (var i = 0; i < degreeArr.length; i++) {
 //  document.write(a++ +")" + " " + degreeArr[i]  + "<br/>");
 } 
 
+// =======> Chapter #13-15 and Task #8
 
-// Task 8:-Write a program to store 3 student names in an array.Take another array to store score of these three students.
-//        Assume that total marks are 500 for each student.
 
 var studentNames = ["Michael", "John", "Tony"];
 var studentScore = [500 , 500, 500]
 
-// Task 9:-Initialize an array with color names. Display the array elements in your browser. 
+// // =======> Chapter #13-15 and Task #9 
 
 var colorNames = ["Aqua", "BurlyWood", "Crimson"];
 
@@ -1005,7 +997,7 @@ var proFour = prompt("which index he/she wants to delete colors");
     //  document.write(x[z] + "<br/>");     
 }
 
-// Task 10:- Write a program to store student scores in an array &sort the array in ascending order  
+// // =======> Chapter #13-15 and Task #10 
 
 var studentScore = [320, 230, 480, 120];
 
@@ -1017,7 +1009,7 @@ var ascendingOrder =  studentScore.reverse().sort()
 
       // document.write("<br />" + " <b> Ordered Scores Of Students: </b>" + ascendingOrder + "<br />")
 
-// Task 11:- Write a program to initialize an array with city names. Copy 3 array elements from cities array to selectedCities array.
+// // =======> Chapter #13-15 and Task #11
 
 var citiesList = ["Karachi","Lahore","Islamabad","Quttea","Peshawar"]
 
@@ -1028,7 +1020,7 @@ var selectedCities = citiesList.slice(2, 4);
  
             // document.write("<b> Selected Cities List </b>" + "<br />" + selectedCities + "<br /> <br />" )
 
-// Task 12:- Write a program to create a single string from the below mentioned array: (Use array’s join method)
+// // =======> Chapter #13-15 and Task #12
 
 var arr = ["This", "is" ,  "my" ,  "cat"];      
 
@@ -1038,21 +1030,18 @@ var arr1 =  arr.join(" ");
   
       // document.write("<b> String </b>" + "<br />" + arr1)
      
-// Task 13:- Create a new array. Store values one by one in such a way that you can access the values in the order 
-//           in which they were stored. (FIFO-First In First Out)
+ // =======> Chapter #13-15 and Task #13
+
+ // =======> Chapter #13-15 and Task #14
+
+ // =======> Chapter #13-15 and Task #15
 
 
-
-
-
-
-               // Chapter #17-20   
-
-// Task 1:- Declare and initialize an empty multidimensional array. (Array of arrays)
+ // =======> Chapter #17-20 and Task #1
 
 var arr = [[]];
 
-// Task 2:- Declare and initialize a multidimensional array representing the following matrix: 
+// =======> Chapter #17-20 and Task #2
 
  arr = [[0, 1, 2, 3],[1, 0, 1, 2], [2, 1, 0, 1]];
                
@@ -1061,13 +1050,13 @@ var arr = [[]];
     //  document.write("<br/>");
     //  document.write("<br/>");          
      
-// Task 3:- Write a program to print numeric counting from 1 to 10.
+// =======> Chapter #17-20 and Task #3
 
    for(var j=0; j <= 10; j++) {
     //  document.write("<br />" + j);
    }
 
-//Task 4:- Write a program to print multiplication table of any number using for loop. Table number & length should be taken as an input from user.
+// =======> Chapter #17-20 and Task #4
 
 var num = prompt("Enter your favourite number")
   
@@ -1084,8 +1073,8 @@ var lengOfTable = prompt("Enter the length of the table");
    }
       // document.write("<br/>");
 
-// Task 5:- Write a program to print items of the following array using for loop:   
-      
+// =======> Chapter #17-20 and Task #5
+
  var newArr = ["apple", "banana", "mango", "orange", "strawberry"];
       
    for (var i = 0; i < newArr.length; i++) {       
@@ -1100,7 +1089,7 @@ var lengOfTable = prompt("Enter the length of the table");
        
       // document.write("<br/>");
 
-// Task 6:- Generate the following series in your browser. See example output.
+// =======> Chapter #17-20 and Task #6
 
   // document.write("<b>Counting:</b>" + "<br/>");
 
@@ -1151,10 +1140,9 @@ var lengOfTable = prompt("Enter the length of the table");
     // document.write(y + "k"+ ", ");
     }
   }
-  
-// Task 7:-  Write a program to enable “search by user input” in an array. After searching, prompt the
-// user whether the given item is found in the list or not.           
 
+ // =======> Chapter #17-20 and Task #7  
+          
 var userPrompt = prompt("Welcome to ABC Bakery.What do you want to order sir/ma'ma?");
 
 var bakerArr = ["cake", "apple pie","cookie", "chips" , "patties"];
@@ -1188,7 +1176,7 @@ var myFlag, indeX;
    
   }
 
-// Task 8:-  Write a program to identify the largest number in the given array.
+// // =======> Chapter #17-20 and Task #8
 
   // Finding the largest number
 
@@ -1207,7 +1195,7 @@ for (var q = 0; q < numberArray.length; q++) {
  
       // document.write("<br/>");
     
- // Task 9:- Write a program to identify the smallest number in the given array.     
+ // =======> Chapter #17-20 and Task #9     
 
  // Finding the smallest number
  
@@ -1225,7 +1213,7 @@ for (var q = 0; q < numberArray.length; q++) {
 
     //  document.write("<br/> <br />");
 
-// Task 10:- Write a program to print multiples of 5 ranging 1 to 100.     
+// // =======> Chapter #17-20 and Task #10
 
 for (var i = 1; i <= 100; i++) {
 
