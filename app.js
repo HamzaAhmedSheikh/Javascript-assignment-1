@@ -1,47 +1,45 @@
 
-                    //    Chapter #1
 
-// Task 1:- Write a script to greet your website visitor using JS alert box?
+// =======> Chapter #1 and Task #1
 
-           alert('Hello World');
+        alert('Hello World');
 
-// Task 2:- Write a script to display following message on your web page:           
+// =======> Chapter #1 and Task #2        
 
-      alert("Error! Please enter a valid password");
+       alert("Error! Please enter a valid password");
 
-// Task 3:- Write a script to display following message on your web page:
+// =======> Chapter #1 and Task #3
 
-     alert("Welcome to JS Land... \n Happ Coding!")
+      alert("Welcome to JS Land... \n Happ Coding!")
 
-// Task 4:- Write a script to display following messages in sequence:
+// =======> Chapter #1 and Task #4
  
-   alert("Welcome to JS Land...");
-   alert(" Happ Coding!"); 
+     alert("Welcome to JS Land...");
+     alert(" Happ Coding!"); 
 
-// Task 5:- Generate the following message through browser’s  developer console:
+// =======> Chapter #1 and Task #5
 
      console.log("Hello I can run JS through my web browser's console");
 
-                   // Chapter #2
+     
 
-// Task 1:- Declare a variable called username.
+// =======> Chapter #2 and Task #1
 
- var username;
+   var username;
 
-// Task 2:- Declare a variable called myName & assign to it a string that represents your Full Name.
+// =======> Chapter #2 and Task #2
 
-var myName = "Hamza Ahmed Sheikh";
+  var myName = "Hamza Ahmed Sheikh";
 
-// Task 3:- Declare a JS variable, titled message. Assign “Hello World” to variable message.
-//          Display the message in alert box.
+// =======> Chapter #2 and Task #3
 
-var message;
+  var message;
 
-message = "Hello World 1";
+  message = "Hello World 1";
 
-alert(message);
+     alert(message);
 
-// Task 4:- Write a script to save student’s bio data in JS variables and  show the data in alert boxes.
+// =======> Chapter #2 and Task #4
 
 var name="Johne Doe";
   
@@ -49,17 +47,17 @@ var age="15 years old";
     
 var course="Certified Mobile Application Development"; 
   
-  alert(name); 
-  alert(age) 
-  alert(course);
+    alert(name); 
+    alert(age) 
+    alert(course);
 
-// Task 5:- Write a script to display the following alert using one JS variable: 
+// =======> Chapter #2 and Task #5
 
 var order="PIZZA\nPIZZ\nPIZ\nPI\nP";
      
     alert(order);
 
-// Task 6:- Declare a variable called email and assign to it a string
+// =======> Chapter #2 and Task #6
 
 var email;
 
@@ -67,7 +65,7 @@ email="hamzaahmedsheikh313@gmail.com";
  
  alert("My email address is " + email);
 
-// Task 7:- Declare a variable called book & give it the value
+// // =======> Chapter #2 and Task #7
 
 var book;
 
@@ -75,59 +73,56 @@ book="A smarter way to learn Javascript";
 
 alert("I am trying to learn from the Book " + book);
 
-// Task 8:- Write a script to display this in browser through JS
+// =======> Chapter #2 and Task #8
 
-document.write("Yah! I can write HTML content through JavaScript" + "<br />");
+  document.write("Yah! I can write HTML content through JavaScript" + "<br />");
 
-// Task 9:- Store following string in a variable and show in alert and  browser through JS
+// =======> Chapter #2 and Task #9
+
 
 var design='▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬';
 
       alert(design);
 
-                    // Chapter #3
-                  
-// Task 1:- Declare a variable called age & assign to it your age. Show your age in an alert box.      
+                                      
+// =======> Chapter #3 and Task #1      
 
-var age= 19;
+  var age= 19;
 
  alert("I am " + age + " years old")
 
-// Task 2:- Declare & initialize a variable to keep track of how many times a visitor has visited a web page. 
+// =======> Chapter #3 and Task #2
 
-var visted;
+  var visted;
  
-visted = "You have visited this site 14 times"; 
+  visted = "You have visited this site 14 times"; 
 
-alert(visted);
+  alert(visted);
 
-// Task 3:- Declare a variable called birthYear & assign to it your birth year.
+// =======> Chapter #3 and Task #3   
 
-var birthYear;
+  var birthYear;
 
-birthYear= 1999;
+  birthYear= 1999;
  
-var age="<br />" + "My birth year is " + birthYear+ "<br/> <br />";
+ var age="<br />" + "My birth year is " + birthYear+ "<br/> <br />";
 
-document.write(age);
+ document.write(age);
 
-document.write("Data type my declared variable is   "+ typeof(birthYear) + "<br /> <br />");
+ document.write("Data type my declared variable is   "+ typeof(birthYear) + "<br /> <br />");
 
-// Task 4:- A visitor visits an online clothing store www.xyzClothing.com . Write a script to store in variables
-//   the following information:
+// =======> Chapter #3 and Task #4      
 
 var product="<b>John Doe</b> ordered <b>5 T-shirt(s)</b> on XYZ Clothing store. <br/> <br/>"; 
  
-document.write(product);
+  document.write(product);
+                 
 
+ // =======> Chapter #4 and Task #1      
 
-                 //  Chapter #4
-
- // Task 1:- Declare 3 variables in one statement.
- 
  var one, two, three;
 
- // Task 2:- Declare 5 legal & 5 illegal variable names.
+ // =======> Chapter #4 and Task #2
 
  // legal variable names
  
@@ -145,88 +140,89 @@ document.write(product);
 //var alert;
 //var document;
 
-// Task 3:- Display this in your browser
+// =======> Chapter #4 and Task #3
 
 var rule="<h3>Rules for naming JS variables</h3>";
 
-        document.write(rule);
+         document.write(rule);
 
 var number="Variable names can only contain, numbers, $ and _. For example: $my_1stVariable <br/>";
 
-      document.write(number);
+        document.write(number);
 
 var letter="Variable must begin with a letter, $ or _. For example: $name, _name or name <br/>";
 
-      document.write(letter);
+        document.write(letter);
 
 var caseSensitive="Variable names are case sensitive <br/>";
  
-     document.write(caseSensitive);
+       document.write(caseSensitive);
 
 var jsKeyword="Variable names should not be JS keywords";
     
-     document.write(jsKeyword + "<br />");
+       document.write(jsKeyword + "<br />");
 
-                  // Chapter #5
-
- // Task 1:-   Write a program that take two numbers & add them in a new variable. 
+             
+ // =======> Chapter #5 and Task #1   
 
  var num1 = 3;
  var num2 = 5;
  var num3 = num1 + num2;
 
- document.write("<br /> Sum of 3 and 5 is " + num3);
+  document.write("<br /> Sum of 3 and 5 is " + num3);
 
- // Task 2:- Repeat task1 for subtraction, multiplication, division & modulus.
+ // =======> Chapter #5 and Task #2
 
  var num4 = 3;
  var num5 = 5;
  var num6 = num4 - num5;
 
- document.write("<br /> Subtraction of 5 and 3 is " + num6);
+  document.write("<br /> Subtraction of 5 and 3 is " + num6);
 
  var num7 = 3;
  var num8 = 5;
  var num9 = num7 * num8;
 
- document.write("<br /> Multiplication of 3 and 5 is " + num9);
+  document.write("<br /> Multiplication of 3 and 5 is " + num9);
 
  var num10 = 3;
  var num11 = 5;
  var num12 = num10 / num11;
 
- document.write("<br /> Division of 3 and 5 is " + num12);
+  document.write("<br /> Division of 3 and 5 is " + num12);
 
  var num13 = 3;
  var num14 = 5;
  var num15 = num13 % num14;
 
- document.write("<br /> Modulus of 3 and 5 is " + num15);
+  document.write("<br /> Modulus of 3 and 5 is " + num15);
 
- // Task 3:- Do the following using JS Mathematic Expressions
+ // =======> Chapter #5 and Task #3
 
  var add;
 
- document.write("<br /> <br/> Value after variable declaration is  "+add);
+  document.write("<br /> <br/> Value after variable declaration is  "+add);
 
-add=5;
+ add=5;
      
  document.write("<br/>Initial value is: "+ add);
  
  add++;
 
- document.write("<br/>Value after increment is: "+ add);
+  document.write("<br/>Value after increment is: "+ add);
     
-add=add+7;
-      document.write("<br/>Value after addition is: "+ add);
+ add=add+7;
+   
+   document.write("<br/>Value after addition is: "+ add);
 
-add--;
+ add--;
      document.write("<br/>Value after decrement is: "+ add);
       
-add=add%3;
-document.write("<br/>The remainder is: "+ add);
+ add=add%3;
 
-// Task 4:- Cost of one movie ticket is 600 PKR. Write a script to store ticket price in a variable & calculate the cost of buying 5 tickets to a movie.
+   document.write("<br/>The remainder is: "+ add);
+
+// =======> Chapter #5 and Task #4
 
 var movie="<br/> <br /> Total cost to buy 5 ticket to a movie is PKR "  
         document.write(movie);
@@ -235,45 +231,42 @@ var ticketPrice= 600;
 
 var totalPrice= 600*5 ;      
 
-document.write(totalPrice);
+  document.write(totalPrice);
 
 
-// Task 5:-  Write a script to display multiplication table of any number in your browser.
+// =======> Chapter #5 and Task #5
 
 var number = +prompt("Please enter a number:");
 
 var heading = "Table Of " + number;
-document.write("<br /> <br />" + heading)
+  document.write("<br /> <br />" + heading)
 
  for (var i=1; i <= 10; i++) {
-       document.write("<br />" + number + " x " + i + " = " + i*number );
+        document.write("<br />" + number + " x " + i + " = " + i*number );
   }
 
 
-
-
-
-// Task 6:- The Temperature Converter:
+// =======> Chapter #5 and Task #6
 
 var celsiusTemperature= 25;
 
 var fahrenheit= (celsiusTemperature*9/5)+32;
 
-document.write("<br/> <br /> 25°C is  "+ fahrenheit + "°F");
+ document.write("<br/> <br /> 25°C is  "+ fahrenheit + "°F");
 
 
 var fahrenheiTemperature= 70;
 
 var celsius= (fahrenheiTemperature-32)*5/9;
 
-   document.write("<br/>70°F is " + celsius + "°C" );
+    document.write("<br/>70°F is " + celsius + "°C" );
 
 
-// Task 7:- Write a program to implement checkout process of a shopping cart system for an e-commerce website.
+// =======> Chapter #5 and Task #7   
 
 var headingZero="<h3>Shopping Cart</h3>"
 
- document.write(headingZero);
+  document.write(headingZero);
 
    var priceOfItem1= 650; 
           
@@ -288,48 +281,48 @@ var headingZero="<h3>Shopping Cart</h3>"
    
     document.write("Price of item 1 is " + priceOfItem1);
    
-   document.write("<br/>Quantity of Item1 is " + orderedQuantityOfItem1);
+    document.write("<br/>Quantity of Item1 is " + orderedQuantityOfItem1);
    
-   document.write("<br/>Price of item 2 is " + priceOfItem2);
+    document.write("<br/>Price of item 2 is " + priceOfItem2);
    
-   document.write("<br/>Quantity of item 2 is " + orderedQuantityOfItem2);
+    document.write("<br/>Quantity of item 2 is " + orderedQuantityOfItem2);
    
-   document.write("<br/>Shipping Charges is " + shippingCharges);   
+    document.write("<br/>Shipping Charges is " + shippingCharges);   
    
    
    var totalCost=(priceOfItem1*3)+(priceOfItem2*7)+(shippingCharges);
    
-    document.write("<br/> <br /> Total Cost of your order " + totalCost);
+     document.write("<br/> <br /> Total Cost of your order " + totalCost);
 
 
-// Task 8:- Store total marks & marks obtained by a student in 2 variables. Compute the percentage & show the result in your browser
+// =======> Chapter #5 and Task #8
 
-var heading="<h3>Marks Sheet</h3>"
+ var heading="<h3>Marks Sheet</h3>"
 
-document.write(heading);
+  document.write(heading);
 
-var totalMark= 980;
+ var totalMark= 980;
 
-document.write("Total Marks: "+ totalMark);
+ document.write("Total Marks: "+ totalMark);
 
-var mark= 804;
+ var mark= 804;
 
-document.write("<br/>Mark obtained: " + 804);
+ document.write("<br/>Mark obtained: " + 804);
    
    
 var totalPercentage= mark * 100 / totalMark;
 
-document.write("<br/>Percentage: "+totalPercentage + "%");
+ document.write("<br/>Percentage: "+totalPercentage + "%");
 
-// Task 9:- Write a script to convert the total currency to Pakistani Rupees.
+// =======> Chapter #5 and Task #9
 
 var headingOne="<h3>Currency in PKR</h3>"
 
-      document.write(headingOne);
+       document.write(headingOne);
 
 var totalCurrencyInPKR= 104.8 * 10 + 25 * 28 ; 
 
-document.write("Total Currency in PKR: "+totalCurrencyInPKR);
+  document.write("Total Currency in PKR: "+totalCurrencyInPKR);
 
 var usDollar= 10;
 
@@ -341,10 +334,9 @@ var riyalRateInRs= 28;
 
 var convertInPK= usDollar * dollarRateInRs + saRiyal * riyalRateInRs;
 
-document.write("<br/>Total Currency in PKR: " + convertInPK);
+ document.write("<br/>Total Currency in PKR: " + convertInPK);
 
-// Task 10:- Write a program to initialize a variable with some number and do arithmetic in following sequence:
-          // Note :- Perform all calculations in a single expression
+// =======> Chapter #5 and Task #10
 
 var numbers = 8;
 
@@ -353,83 +345,81 @@ var cal = numbers + 5 * 10 / 2;
  alert("Perform all calculations in a single expression " + cal);
 
 
-// Task 11:- The Age Calculator:
+// =======> Chapter #5 and Task #11
 
-var headingTwo="<h3>Age Calculator</h3>"
+ var headingTwo="<h3>Age Calculator</h3>"
 
-document.write(headingTwo);
+   document.write(headingTwo);
 
-var currentYear= 2020;
+ var currentYear= 2020;
 
-document.write("Current Year: " + currentYear);
+  document.write("Current Year: " + currentYear);
 
-var birthYear= 1992;
+ var birthYear= 1992;
 
-document.write("<br/>Birth Year: " + birthYear);
+  document.write("<br/>Birth Year: " + birthYear);
 
-var yourAge= currentYear - birthYear;
+ var yourAge= currentYear - birthYear;
 
-document.write("<br/>Your Age: " + yourAge);
+  document.write("<br/>Your Age: " + yourAge);
 
-// Task 12:- The Geometrizer: Calculate properties of a circle. Store a radius into a variable.
+// =======> Chapter #5 and Task #12
 
-var headingThree="<h3>The Geometrizer</h3>"
+ var headingThree="<h3>The Geometrizer</h3>"
 
-   document.write(headingThree);
+    document.write(headingThree);
 
 var  radiusOfCircle= 20 ;  // circumference of circle 2 π r
 
 var  pie= 3.142 ;  //   π = 3.142 
 
-document.write("Radius of a Circle: " + radiusOfCircle)
+   document.write("Radius of a Circle: " + radiusOfCircle)
 
-document.write("<br/>The circumference is: " + 2 * pie * radiusOfCircle );
+   document.write("<br/>The circumference is: " + 2 * pie * radiusOfCircle );
 
 var areaOfCircle= (pie) * (radiusOfCircle**2);
 
-document.write("<br/>The area is: " + areaOfCircle);
+  document.write("<br/>The area is: " + areaOfCircle);
 
-// Task 13:- The Lifetime Supply Calculator
+// =======> Chapter #5 and Task #13
 
 var headingFour="<h3>The Lifetime Supply Calculator</h3>"
  
-      document.write(headingFour);
+       document.write(headingFour);
 
 var  favoriteSnack= "chocolate chip";
 
-    document.write("Favourite Snack: " + favoriteSnack);
+       document.write("Favourite Snack: " + favoriteSnack);
 
 var age= 18;
  
- document.write("<br/>Current Age: " + age);
+   document.write("<br/>Current Age: " + age);
 
 var maximumAge= 65 ;
 
-document.write("<br/>Estimated Maximum Age: "+ maximumAge);
+   document.write("<br/>Estimated Maximum Age: "+ maximumAge);
 
   var amountOfSnacksPerDay= 3;
   
-document.write("<br/>Amount of snacks per day : "+ amountOfSnacksPerDay)   
+  document.write("<br/>Amount of snacks per day : "+ amountOfSnacksPerDay)   
 
 var totalLife= (maximumAge - age) * amountOfSnacksPerDay  ;
 
-//alert(totalLife);
+  alert(totalLife);
 
-document.write("<br/>You will need " + totalLife + " chocolate chip to last you until the ripe old age of " + maximumAge);
- 
+  document.write("<br/>You will need " + totalLife + " chocolate chip to last you until the ripe old age of " + maximumAge);
+   
 
-                // Chapter #6
+// =======> Chapter #6 and Task #1                
 
-// Task 1:-  Write a program to take a number in a variable, do the required arithmetic to display the following result in your browser:                
-
-var heading = "<br /> <br /> Result:<br/> ";
-     document.write(heading);
+ var heading = "<br /> <br /> Result:<br/> ";
+      document.write(heading);
    
   var a = 10;
                 
-  document.write("The value of is: " + a + "<br/>..............................");
+   document.write("The value of is: " + a + "<br/>..............................");
     
-          //++a;
+          ++a;
                 
     document.write("<br/><br/>The value of ++a is: " +  ++a); //11
     
@@ -448,29 +438,26 @@ var heading = "<br /> <br /> Result:<br/> ";
     document.write("<br/>Now the value of a is: "+ a); //10               
 
 
-// Task 2:-  What will be the output in variables a, b & result after execution of the following script:
+// =======> Chapter #6 and Task #2
 
-var a = 2; // (--a = 1) 
+ var a = 2; // (--a = 1) 
  
-var b = 1; // (--b = 0) (++b = 1) (b-- = 1) (b = 0)
+ var b = 1; // (--b = 0) (++b = 1) (b-- = 1) (b = 0)
     
-var result = --a - --b + ++b + b--; // 1 - 0 + 1 + 1 =
+ var result = --a - --b + ++b + b--; // 1 - 0 + 1 + 1 =
     
     
-  document.write(" <br /> a is " + a); 
-  document.write("<br/> b is " + b);
-  document.write("<br/> result is " + result);   
+    document.write(" <br /> a is " + a); 
+    document.write("<br/> b is " + b);
+    document.write("<br/> result is " + result);   
 
-// Task 3:- Write a program that takes input a name from user & greet the user.  
+// =======> Chapter #6 and Task #3  
 
 var  name = prompt("What is your name?");
 
-  alert("Hello " + name)
+   alert("Hello " + name)
 
-
-
-// Task 4:- Write a program to take input a number from user & display it’s multiplication table on your browser. If user
-//           does not enter a new number, multiplication table of 5 should be displayed by default.    
+// =======> Chapter #6 and Task #4
 
 var number1 = +prompt("Please enter a number:");
 
@@ -490,53 +477,51 @@ console.log(number1);
   }
 
 
-// Task 5:-
+// =======> Chapter #6 and Task #5
 
 var subject = prompt('Please enter a subjects 1 name ');
 var subject1 = prompt('Please enter a subject 2 name');
 var subject2 = prompt('Please enter a subject 3 name ');
+
+//  document.write("<br />" + '  <b> Subject Total Marks </b> ' + "<br />" + subject + "<br />" + subject1 + "<br />" + subject2)
  
- document.write("<br /> <br />", "<b> Subject </b>", "<br />", subject, "<br />", subject1, "<br />", subject2)
-
-
 var obtainedMarks = +prompt('Please enter obtained marks ');
 var obtainedMarks1 = +prompt('Please enter obtained marks');
 var obtainedMarks2 = +prompt('Please enter obtained marks ');
 
 var totalObtainedMarks = obtainedMarks + obtainedMarks1 + obtainedMarks1;
 
-// document.write(`<br /> <br /> <b> Obtained Marks </b> <br /> obtainedMarks, "<br />", obtainedMarks1, "<br />", obtainedMarks2)
-
 var marks = 100; 
 var totalMarks = 300;
+ 
+
+// document.write(marks)
+ 
+
+
 
 var obtainedPercentage = (totalObtainedMarks * marks) / totalMarks;
 
 console.log(obtainedPercentage);
 console.log(totalObtainedMarks);
 
-                      // Chapter #9-10
+ // =======> Chapter #9-10 and Task #1
 
-// Task 1:- Write a program to take “city” name as input from user. If user enters “Karachi”, 
-//          welcome the user like this:      
-
-
-var users = prompt("What is your city Name")
+ var users = prompt("What is your city Name")
 
   if(users == "Karachi") {
-    // alert("Welcome to city of lights")    
+     alert("Welcome to city of lights")    
   }
 
   else if(users == "") {
-    // alert("Please fill an input")
+     alert("Please fill an input")
   }
   
   else {
-    //  alert("Welcome to " + users + " have a safe journey.")
+      alert("Welcome to " + users + " have a safe journey.")
   }
 
-// Task 2:- Write a program to take “gender” as input from user. If the user is male, give the message:
-//          Good Morning Sir. If the user is female, give the message: Good Morning Ma’am.  
+ // =======> Chapter #9-10 and Task #2  
 
 
 var gender = prompt("What is your gender?")
@@ -552,8 +537,7 @@ var gender = prompt("What is your gender?")
     // alert("Please fill a gender input");
   }
 
-// Task 3:- Write a program to take input color of road traffic signal from the user &
-//          show the message according to this table:  
+ // =======> Chapter #9-10 and Task #3  
 
 var signalColors = prompt("What is the color of traffic signal?")
 
@@ -572,8 +556,7 @@ var signalColors = prompt("What is the color of traffic signal?")
     // alert("Please fill an input")
   }
 
-// Task 4:- Write a program to take input remaining fuel in car (in litres) from user. If the current fuel
-//          is less than 0.25litres, show the message “Please refill the fuel in your car”
+// =======> Chapter #9-10 and Task #4
 
   var fuel = +prompt("Please fill your remaining fuel in car (in litres)?")
 
@@ -584,31 +567,31 @@ var signalColors = prompt("What is the color of traffic signal?")
       // alert("Your tank is full")
     }
 
-//Task 5:- Run this script, & check whether alert message would be displayed or not. Record the outputs.
+// =======> Chapter #9-10 and Task #5
 
 var a = 4;
     if (++a === 5) { //   a = 4 ++a = 4 + 1 = 5 5 === 5t  
-       alert("given condition for variable a is true"); //  a = 4 ++a = 4 + 1 = 5 Ans 5 === 5 true
+      //  alert("given condition for variable a is true"); //  a = 4 ++a = 4 + 1 = 5 Ans 5 === 5 true
     }
 
 var b = 82;
     if (b++ === 83){
-          alert("given condition for variable b is true"); // false because of post increment
+          // alert("given condition for variable b is true"); // false because of post increment
     }
 var c = 12;
     if (c++ === 13){
-      alert("condition 1 is true"); // false because of post increment
+      // alert("condition 1 is true"); // false because of post increment
 }
     if (c === 13){
-      alert("condition 2 is true"); // because after post increment of c value of c is 13 so 13 === 13 true
+      // alert("condition 2 is true"); // because after post increment of c value of c is 13 so 13 === 13 true
    }
 
     if (++c < 14){
-      alert("condition 3 is true"); // because pre increment c = 14 or 14 < 14 = false
+      // alert("condition 3 is true"); // because pre increment c = 14 or 14 < 14 = false
    }
    
    if(c === 14){
-     alert("condition 4 is true"); // c = 14 or 14 === 14 true      
+    //  alert("condition 4 is true"); // c = 14 or 14 === 14 true      
     }
 
 var materialCost = 20000;
@@ -616,22 +599,21 @@ var laborCost = 2000;
 var totalCost = materialCost + laborCost;
 
 if (totalCost === laborCost + materialCost){
- alert("The cost equals"); // because 22000 === 22000 is true
+//  alert("The cost equals"); // because 22000 === 22000 is true
 }
   if (true){
-   alert("True"); // in the if condition is true so if block will execute 
+  //  alert("True"); // in the if condition is true so if block will execute 
 } 
 
  if (false){
-  alert("False");
+  // alert("False");
 }
 
  if("car" < "cat"){
-   alert("car is smaller than cat");  // r = 18 is less than t = 20 = true
+  //  alert("car is smaller than cat");  // r = 18 is less than t = 20 = true
 }
 
-// Task 6:- Write a program to take input the marks obtained in three subjects & total marks. Compute & show the
-//          resulting percentage on your page.
+// =======> Chapter #9-10 and Task #6
 
  
 var classSubjectsMarks = +prompt("What is obtained marks in three subjects?")
@@ -640,34 +622,33 @@ var totalMarks = +prompt("What is the total marks in three subjects?")
 
 var percentage = classSubjectsMarks * 100 / totalMarks;
 
-  document.write("<h3> Marks Sheet </h3>")
+  // document.write("<h3> Marks Sheet </h3>")
 
      if (percentage >= 80) {
-       document.write("<br />" + "Total marks: " +  totalMarks);
-       document.write(" <br />  Marks obtained ", + classSubjectsMarks + "<br />");
-       document.write("Percentage: " + percentage)
-       document.write("Grade: A-one <br />" + "Remarks: " + " Excellect");
+      //  document.write("<br />" + "Total marks: " +  totalMarks);
+      //  document.write(" <br />  Marks obtained ", + classSubjectsMarks + "<br />");
+      //  document.write("Percentage: " + percentage)
+      //  document.write("Grade: A-one <br />" + "Remarks: " + " Excellect");
      } 
 
      else if (percentage >= 70) {
-      document.write("<br />" + "Total marks: " +  totalMarks);
-      document.write(" <br />  Marks obtained ", + classSubjectsMarks + "<br />");
-      document.write("Percentage: " + percentage)
-      document.write("Grade: A <br />" + "Remarks: " + " Good");
+      // document.write("<br />" + "Total marks: " +  totalMarks);
+      // document.write(" <br />  Marks obtained ", + classSubjectsMarks + "<br />");
+      // document.write("Percentage: " + percentage)
+      // document.write("Grade: A <br />" + "Remarks: " + " Good");
     }
 
      else if(percentage >= 60) {
-      document.write("<br />" + "Total marks: " +  totalMarks);
-      document.write(" <br />  Marks obtained ", + classSubjectsMarks + "<br />");
-      document.write("Percentage: " + percentage + "<br />")
-      document.write("Grade: B <br />" + "Remarks: " + " You need to improve");
+      // document.write("<br />" + "Total marks: " +  totalMarks);
+      // document.write(" <br />  Marks obtained ", + classSubjectsMarks + "<br />");
+      // document.write("Percentage: " + percentage + "<br />")
+      // document.write("Grade: B <br />" + "Remarks: " + " You need to improve");
     }     
      else {
-      document.write("Fail " + " Sorry")       
+      // document.write("Fail " + " Sorry")       
      }
 
-// Task 7:- Guess game: Store a secret number (ranging from 1 to 10) in a variable.
- //         Prompt user to guess the secret number.    
+// =======> Chapter #9-10 and Task #7  
  
  var secretNumber = 4;
 
@@ -676,63 +657,62 @@ var guessANum = +prompt("Please guess the secret number (ranging from 1 to 10)."
 var number2 = guessANum + 1;
    
     if(guessANum === secretNumber) {
-         alert("Bingo! Correct answer");
+        //  alert("Bingo! Correct answer");
     }
     else if(number2 >= secretNumber) {
-      alert("Close enough to the correct answer.");
+      // alert("Close enough to the correct answer.");
     } 
     else {
-      alert("Try again")
+      // alert("Try again")
     }
 
-// Task 8:- Write a program to check whether the given number is divisible by 3.
-//          Show the message to the user if the number is divisible by 3.
+// =======> Chapter #9-10 and Task #8
 
  var divideNum = +prompt("Please enter a number to divisble by 3");
 
      if (divideNum % 3 == 0) {
-         alert("The number is " + divideNum +  " divisible by 3 ");
+        //  alert("The number is " + divideNum +  " divisible by 3 ");
 }
      else {
-         alert("The number is not divide by 3 ")
+        //  alert("The number is not divide by 3 ")
 }
 
-// Task 9:- Write a program that checks whether the given input is an even number or an odd number.
+// =======> Chapter #9-10 and Task #9
 
 var evenOdd = +prompt("Please enter a number");
 
     if (evenOdd % 2 == 0) {
-        alert("The number " + evenOdd + " is even");
+        // alert("The number " + evenOdd + " is even");
       }
     else {
-        alert("The number " + evenOdd + " is odd");
+        // alert("The number " + evenOdd + " is odd");
       }
 
-// Task 10:-  Write a program that takes temperature as input and shows a message based on following criteria 
+ // =======> Chapter #9-10 and Task #10  
 
 var temperature = prompt("Please enter your city's temperature");
 
     if (temperature > 40) {
 
-      alert("It is too hot outside.")  
+      // alert("It is too hot outside.")  
     }
     else if(temperature > 30) {
 
-      alert("The Weather today is Normal.")
+      // alert("The Weather today is Normal.")
     }
     else if(temperature > 20) {
       
-      alert("Today’s Weather is cool.")
+      // alert("Today’s Weather is cool.")
     }
     else if(temperature > 10) {
 
-      alert("OMG! Today’s weather is so Cool.")
+      // alert("OMG! Today’s weather is so Cool.")
     }    
     else {
-      alert("Please fill an input")      
+      // alert("Please fill an input")      
     }
 
-// Task 11:- Write a program to create a calculator for +,-,*, / & %  using if statements.   
+ // =======> Chapter #9-10 and Task #11    
 
 var val1 = +prompt("enter your first value");
 var sign =  prompt("enter your operator");
@@ -740,26 +720,26 @@ var val2 = +prompt("enter your second value");
 
     if (sign == '+') { //
 
-      alert(val1 + val2);    
+      // alert(val1 + val2);    
     }
     else if(sign == '-') {
 
-      alert(val1 - val2);
+      // alert(val1 - val2);
     }
     else if(sign === '*') {
 
-      alert(val1 * val2);      
+      // alert(val1 * val2);      
     }
     else if(sign === '/') {
 
-      alert(val1 / val2);      
+      // alert(val1 / val2);      
     }
     else if(sign === '%') {
 
-      alert(val1 % val2);      
+      // alert(val1 % val2);      
     }
     else {
-      alert('Please fill an input') 
+      // alert('Please fill an input') 
     }                   
                       // Chapter #12-13
 
@@ -793,7 +773,7 @@ var val2 = +prompt("enter your second value");
     }
 
     else {
-      alert("not working")
+      // alert("not working")
     }
 
 //Task 3:-  Write a program that takes input a number from user &
@@ -805,15 +785,15 @@ var sign = number > 0 ? 1 : number == 0 ? 0 : -1;
 
     if (sign == 1){
 
-       alert("Oh  your number is so big!" + " " + number);
+      //  alert("Oh  your number is so big!" + " " + number);
     }
     else if (sign == 0){
 
-      alert("Hey, there's nothing there!" + " " + number);
+      // alert("Hey, there's nothing there!" + " " + number);
     }
     else if (sign == -1){
 
-      alert("Wow, that thing's so small it might be negative!" + " " + number);
+      // alert("Wow, that thing's so small it might be negative!" + " " + number);
     }
 
 // Task 4:-Write a program that takes a character (i.e. string of length 1) and returns true if it is a vowel, false otherwise
@@ -821,10 +801,10 @@ var sign = number > 0 ? 1 : number == 0 ? 0 : -1;
  var vowel = prompt("Enter a vowel");
 
       if (vowel == 'a'|| vowel =='i'|| vowel == 'e'|| vowel =='o' || vowel == 'u') {
-        alert("The character is a Vowel");
+        // alert("The character is a Vowel");
       }
       else {
-        alert("The character is a Consonant");
+        // alert("The character is a Consonant");
       }
 
 // Task 5:- Write a program that store correct password in a JS variable. Asks user to enter his/her password
@@ -837,13 +817,13 @@ var login = prompt(" Please enter his/her correct password ")
 var confirmPassword = prompt("Please enter confirm password")
 
     if(password == login && password == confirmPassword) {
-      alert("“Correct! The password you entered matches the original password”.")
+      // alert("“Correct! The password you entered matches the original password”.")
     } 
     else if(login == "" && confirmPassword == "") {
-      alert("Please enter your password")
+      // alert("Please enter your password")
     }   
     else {
-      alert("Incorrect password")
+      // alert("Incorrect password")
     }
 
 // Task 6: This if/else statement does not work. Try to fix it:
@@ -917,7 +897,7 @@ var mixedArr = ["Hello", 1 , 2 , 3, "World", true, false]
 
 // Task 7:- Declare and Initialize an array and store available education qualifications in Pakistan.
 
-document.write("<h3>  Qualifications </h3>");
+// document.write("<h3>  Qualifications </h3>");
 
 var a = 1;
 
@@ -926,7 +906,7 @@ var degreeArr = ["SSC", "HSC", "BCS" , "BS", "BCOM", "MS",
 
 for (var i = 0; i < degreeArr.length; i++) {
 
- document.write(a++ +")" + " " + degreeArr[i]  + "<br/>");
+//  document.write(a++ +")" + " " + degreeArr[i]  + "<br/>");
 } 
 
 
@@ -940,16 +920,16 @@ var studentScore = [500 , 500, 500]
 
 var colorNames = ["Aqua", "BurlyWood", "Crimson"];
 
-      document.write("<h2> Color Names </h2>")
+      // document.write("<h2> Color Names </h2>")
 
  for (var i = 0; i < colorNames.length; i++) {
   
-      document.write(colorNames[i] + "<br/>");      
+      // document.write(colorNames[i] + "<br/>");      
   }
   
 // Ask the user what color he/she wants to add to the beginning & add that color to the beginning of the array.
                 
-           document.write("<br/>");
+          //  document.write("<br/>");
 
 var promptOne = prompt("What color he/she wants to add to the starting?");
 
@@ -957,12 +937,12 @@ var promptOne = prompt("What color he/she wants to add to the starting?");
 
      for (var o = 0; o < colorNames.length; o++) {
        
-        document.write(colorNames[o] + "<br/>");        
+        // document.write(colorNames[o] + "<br/>");        
   }  
 
 // Ask the user what color he/she wants to add to the end & add that color to the end of the array.  
 
-             document.write("<br/>");             
+            //  document.write("<br/>");             
  
 var promptTwo = prompt("What color he/she wants to add to the end");
 
@@ -970,17 +950,17 @@ var promptTwo = prompt("What color he/she wants to add to the end");
             
      for (var u = 0; u < colorNames.length; u++) { 
          
-       document.write(colorNames[u] + "<br/>");
+      //  document.write(colorNames[u] + "<br/>");
     }  
      
-      document.write("<br />")
+      // document.write("<br />")
 
 //  Add two more color to the beginning of the array.     
 
        colorNames.unshift("DarkGreen" + "<br />" + "DodgerBlue");         
          
-               document.write(colorNames + "<br />");
-               document.write("<br />")
+              //  document.write(colorNames + "<br />");
+              //  document.write("<br />")
 
 // Delete the first color in the array. Delete the last color in the array.        
    
@@ -988,18 +968,18 @@ var promptTwo = prompt("What color he/she wants to add to the end");
 
      for(var a = 0; a < colorNames.length; a++) {
        
-        document.write(colorNames[a] + "<br/>");
+        // document.write(colorNames[a] + "<br/>");
      }     
-           document.write("<br />")
+          //  document.write("<br />")
 
              colorNames.pop();
 
      for (var g = 0; g < colorNames.length; g++) {
        
-       document.write(colorNames[g] + "<br/>");
+      //  document.write(colorNames[g] + "<br/>");
     }  
 
-     document.write("<br />")
+    //  document.write("<br />")
       
 // 
 
@@ -1011,9 +991,9 @@ var p1 = prompt("Enter the position after which you want to add the " + proThree
 
     for (i = 0; i < colorNames.length; i++){
 
-     document.write(colorNames[i] + "<br />");}
+    //  document.write(colorNames[i] + "<br />");}
 
-        document.write("<br/>");
+        // document.write("<br/>");
         
   
 var proFour = prompt("which index he/she wants to delete colors");
@@ -1022,41 +1002,41 @@ var proFour = prompt("which index he/she wants to delete colors");
 
    for (var z = 0; z < x.length; z++) {
 
-     document.write(x[z] + "<br/>");     
+    //  document.write(x[z] + "<br/>");     
 }
 
 // Task 10:- Write a program to store student scores in an array &sort the array in ascending order  
 
 var studentScore = [320, 230, 480, 120];
 
-       document.write("<br />" + "<b> Scores Of Students: </b>" + studentScore[0] + "," + studentScore[1] +
+        document.write("<br />" + "<b> Scores Of Students: </b>" + studentScore[0] + "," + studentScore[1] +
                       "," + studentScore[2] + "," + studentScore[3])
 
          
 var ascendingOrder =  studentScore.reverse().sort()        
 
-      document.write("<br />" + " <b> Ordered Scores Of Students: </b>" + ascendingOrder + "<br />")
+      // document.write("<br />" + " <b> Ordered Scores Of Students: </b>" + ascendingOrder + "<br />")
 
 // Task 11:- Write a program to initialize an array with city names. Copy 3 array elements from cities array to selectedCities array.
 
 var citiesList = ["Karachi","Lahore","Islamabad","Quttea","Peshawar"]
 
-                document.write(" <b> Cities List: </b> " + "<br />" + citiesList + "<br />")
+                // document.write(" <b> Cities List: </b> " + "<br />" + citiesList + "<br />")
  
      
 var selectedCities = citiesList.slice(2, 4);
  
-            document.write("<b> Selected Cities List </b>" + "<br />" + selectedCities + "<br /> <br />" )
+            // document.write("<b> Selected Cities List </b>" + "<br />" + selectedCities + "<br /> <br />" )
 
 // Task 12:- Write a program to create a single string from the below mentioned array: (Use array’s join method)
 
 var arr = ["This", "is" ,  "my" ,  "cat"];      
 
-      document.write("<b> Array </b> " + "<br />" + arr + "<br /> <br />");
+      // document.write("<b> Array </b> " + "<br />" + arr + "<br /> <br />");
 
 var arr1 =  arr.join(" ");
   
-      document.write("<b> String </b>" + "<br />" + arr1)
+      // document.write("<b> String </b>" + "<br />" + arr1)
      
 // Task 13:- Create a new array. Store values one by one in such a way that you can access the values in the order 
 //           in which they were stored. (FIFO-First In First Out)
@@ -1076,15 +1056,15 @@ var arr = [[]];
 
  arr = [[0, 1, 2, 3],[1, 0, 1, 2], [2, 1, 0, 1]];
                
-    document.write( "<br /> <br />" + arr[0] + "<br/>" + arr[1] + "<br/>" + arr[2]);
+    // document.write( "<br /> <br />" + arr[0] + "<br/>" + arr[1] + "<br/>" + arr[2]);
                
-     document.write("<br/>");
-     document.write("<br/>");          
+    //  document.write("<br/>");
+    //  document.write("<br/>");          
      
 // Task 3:- Write a program to print numeric counting from 1 to 10.
 
    for(var j=0; j <= 10; j++) {
-     document.write("<br />" + j);
+    //  document.write("<br />" + j);
    }
 
 //Task 4:- Write a program to print multiplication table of any number using for loop. Table number & length should be taken as an input from user.
@@ -1093,82 +1073,82 @@ var num = prompt("Enter your favourite number")
   
 var lengOfTable = prompt("Enter the length of the table");
      
-   document.write('<br />' + "Multiplication table of " + num + "<br/>");
-   document.write("Length " + lengOfTable);
+  //  document.write('<br />' + "Multiplication table of " + num + "<br/>");
+  //  document.write("Length " + lengOfTable);
      
-   document.write("<br/>");
-    document.write("<br/>");
+  //  document.write("<br/>");
+    // document.write("<br/>");
       
    for (var i = 1;  i <= lengOfTable; i++) {     
-     document.write(num + " x " + i + " = " + num * i + "<br/>");      
+    //  document.write(num + " x " + i + " = " + num * i + "<br/>");      
    }
-      document.write("<br/>");
+      // document.write("<br/>");
 
 // Task 5:- Write a program to print items of the following array using for loop:   
       
  var newArr = ["apple", "banana", "mango", "orange", "strawberry"];
       
    for (var i = 0; i < newArr.length; i++) {       
-           document.write(newArr[i] + "<br/>");
+          //  document.write(newArr[i] + "<br/>");
       }
       
-      document.write("<br/>");
+      // document.write("<br/>");
       
    for (var u = 0; u < newArr.length; u++) {    
-         document.write("Element at index "+ u + " is " + newArr[u] + "<br/>" );    
+        //  document.write("Element at index "+ u + " is " + newArr[u] + "<br/>" );    
       }
        
-      document.write("<br/>");
+      // document.write("<br/>");
 
 // Task 6:- Generate the following series in your browser. See example output.
 
-  document.write("<b>Counting:</b>" + "<br/>");
+  // document.write("<b>Counting:</b>" + "<br/>");
 
-   document.write("<br/>");
+  //  document.write("<br/>");
    
   for (var t = 0; t <= 15; t++) {  
-        document.write("  " + t);
+        // document.write("  " + t);
  }    
-    document.write("<br/>");
-    document.write("<br/>");
+    // document.write("<br/>");
+    // document.write("<br/>");
    
- document.write("<b> Reverse Counting: </b>" + "<br/> <br/>") 
+//  document.write("<b> Reverse Counting: </b>" + "<br/> <br/>") 
   
   for (var e = 10; e > 0; e--) {  
-   document.write(e + "  ");   
+  //  document.write(e + "  ");   
  } 
   
-   document.write("<br/>");
-   document.write("<br/>" +"<b>" + "Even Counting: " + "</b>");
-    document.write("<br/>" + "<br/>");
+  //  document.write("<br/>");
+  //  document.write("<br/>" +"<b>" + "Even Counting: " + "</b>");
+    // document.write("<br/>" + "<br/>");
   
   for (var f = 0; f <= 20; f++) {
      
       if (f % 2 === 0) {
       
-      document.write(f + ", ");
+      // document.write(f + ", ");
     }
   }     
-      document.write("<br/>" + "<br/>");
-      document.write("<b>" + "Odd Counting: " + "</b>"); 
-      document.write("<br/>" + "<br/>");    
+      // document.write("<br/>" + "<br/>");
+      // document.write("<b>" + "Odd Counting: " + "</b>"); 
+      // document.write("<br/>" + "<br/>");    
   
   for (var g = 1; g <= 20; g++) {
 
       if (g % 2 === 1) {
       
-       document.write(g + ", ");
+      //  document.write(g + ", ");
       }
   }     
-      document.write("<br/>" + "<br/>");
-      document.write("<b>" + "Series: " + "</b>"); 
-      document.write("<br/>" + "<br/>");
+      // document.write("<br/>" + "<br/>");
+      // document.write("<b>" + "Series: " + "</b>"); 
+      // document.write("<br/>" + "<br/>");
        
   for (var y = 1; y <= 20; y++) {
   
     if (y % 2 === 0) {
     
-    document.write(y + "k"+ ", ");
+    // document.write(y + "k"+ ", ");
     }
   }
   
@@ -1198,13 +1178,13 @@ var myFlag, indeX;
   
   if (myFlag === true) {
       
-      document.write("<br/> <br /> " + userPrompt + " is available at index " + indeX + " in our bakery <br/>");
+      // document.write("<br/> <br /> " + userPrompt + " is available at index " + indeX + " in our bakery <br/>");
      
   }   
    
   else {
    
-  document.write("<br/>" + "We are sorry." + userPrompt + " is  not available in our bakery <br/> " ); 
+  // document.write("<br/>" + "We are sorry." + userPrompt + " is  not available in our bakery <br/> " ); 
    
   }
 
@@ -1222,36 +1202,35 @@ for (var q = 0; q < numberArray.length; q++) {
           largest = numberArray[q];
    }
 }
-        document.write("<br/>");
-      document.write("Largest number is " + largest);
+        // document.write("<br/>");
+      // document.write("Largest number is " + largest);
  
-      document.write("<br/>");
+      // document.write("<br/>");
     
  // Task 9:- Write a program to identify the smallest number in the given array.     
 
  // Finding the smallest number
  
- var newNumArray = [24, 53, 78, 91, 12];
+//  var newNumArray = [24, 53, 78, 91, 12];
  
- var smallest = newNumArray[0];
+//  var smallest = newNumArray[0];
  
- for (var w = 0; w < newNumArray.length; w++) {
+//  for (var w = 0; w < newNumArray.length; w++) {
  
-      if (smallest > newNumArray[w]) {
-          smallest = newNumArray[w];
-   }
-}   
-     document.write("Smallest number is " + smallest);
+//       if (smallest > newNumArray[w]) {
+//           smallest = newNumArray[w];
+//    }
+// }   
+    //  document.write("Smallest number is " + smallest);
 
-     document.write("<br/> <br />");
+    //  document.write("<br/> <br />");
 
 // Task 10:- Write a program to print multiples of 5 ranging 1 to 100.     
 
- for (var i = 1; i <= 100; i++) {
-       
-       if (i % 5 === 0) {               
-        document.write(i + " , ");
-   }
- }  
+for (var i = 1; i <= 100; i++) {
+
+  if (i % 5 === 0) {
   
- 
+  document.write(i + " , ");
+}
+}  }
