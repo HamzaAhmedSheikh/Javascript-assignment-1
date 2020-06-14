@@ -599,10 +599,10 @@ var laborCost = 2000;
 var totalCost = materialCost + laborCost;
 
 if (totalCost === laborCost + materialCost){
-//  alert("The cost equals"); // because 22000 === 22000 is true
+  alert("The cost equals"); // because 22000 === 22000 is true
 }
   if (true){
-  //  alert("True"); // in the if condition is true so if block will execute 
+    alert("True"); // in the if condition is true so if block will execute 
 } 
 
  if (false){
@@ -610,7 +610,7 @@ if (totalCost === laborCost + materialCost){
 }
 
  if("car" < "cat"){
-  //  alert("car is smaller than cat");  // r = 18 is less than t = 20 = true
+    alert("car is smaller than cat");  // r = 18 is less than t = 20 = true
 }
 
 // =======> Chapter #9-10 and Task #6
@@ -622,30 +622,30 @@ var totalMarks = +prompt("What is the total marks in three subjects?")
 
 var percentage = classSubjectsMarks * 100 / totalMarks;
 
-  // document.write("<h3> Marks Sheet </h3>")
+   document.write("<h3> Marks Sheet </h3>")
 
      if (percentage >= 80) {
-      //  document.write("<br />" + "Total marks: " +  totalMarks);
-      //  document.write(" <br />  Marks obtained ", + classSubjectsMarks + "<br />");
-      //  document.write("Percentage: " + percentage)
-      //  document.write("Grade: A-one <br />" + "Remarks: " + " Excellect");
+        document.write("<br />" + "Total marks: " +  totalMarks);
+        document.write(" <br />  Marks obtained ", + classSubjectsMarks + "<br />");
+        document.write("Percentage: " + percentage)
+        document.write("Grade: A-one <br />" + "Remarks: " + " Excellect");
      } 
 
      else if (percentage >= 70) {
-      // document.write("<br />" + "Total marks: " +  totalMarks);
-      // document.write(" <br />  Marks obtained ", + classSubjectsMarks + "<br />");
-      // document.write("Percentage: " + percentage)
-      // document.write("Grade: A <br />" + "Remarks: " + " Good");
+       document.write("<br />" + "Total marks: " +  totalMarks);
+       document.write(" <br />  Marks obtained ", + classSubjectsMarks + "<br />");
+       document.write("Percentage: " + percentage)
+       document.write("Grade: A <br />" + "Remarks: " + " Good");
     }
 
      else if(percentage >= 60) {
-      // document.write("<br />" + "Total marks: " +  totalMarks);
-      // document.write(" <br />  Marks obtained ", + classSubjectsMarks + "<br />");
-      // document.write("Percentage: " + percentage + "<br />")
-      // document.write("Grade: B <br />" + "Remarks: " + " You need to improve");
+       document.write("<br />" + "Total marks: " +  totalMarks);
+       document.write(" <br />  Marks obtained ", + classSubjectsMarks + "<br />");
+       document.write("Percentage: " + percentage + "<br />")
+       document.write("Grade: B <br />" + "Remarks: " + " You need to improve");
     }     
      else {
-      // document.write("Fail " + " Sorry")       
+       document.write("Fail " + " Sorry")       
      }
 
 // =======> Chapter #9-10 and Task #7  
@@ -657,13 +657,13 @@ var guessANum = +prompt("Please guess the secret number (ranging from 1 to 10)."
 var number2 = guessANum + 1;
    
     if(guessANum === secretNumber) {
-        //  alert("Bingo! Correct answer");
+          alert("Bingo! Correct answer");
     }
     else if(number2 >= secretNumber) {
-      // alert("Close enough to the correct answer.");
+       alert("Close enough to the correct answer.");
     } 
     else {
-      // alert("Try again")
+       alert("Try again")
     }
 
 // =======> Chapter #9-10 and Task #8
@@ -671,10 +671,10 @@ var number2 = guessANum + 1;
  var divideNum = +prompt("Please enter a number to divisble by 3");
 
      if (divideNum % 3 == 0) {
-        //  alert("The number is " + divideNum +  " divisible by 3 ");
+          alert("The number is " + divideNum +  " divisible by 3 ");
 }
      else {
-        //  alert("The number is not divide by 3 ")
+          alert("The number is not divide by 3 ")
 }
 
 // =======> Chapter #9-10 and Task #9
@@ -682,10 +682,10 @@ var number2 = guessANum + 1;
 var evenOdd = +prompt("Please enter a number");
 
     if (evenOdd % 2 == 0) {
-        // alert("The number " + evenOdd + " is even");
+         alert("The number " + evenOdd + " is even");
       }
     else {
-        // alert("The number " + evenOdd + " is odd");
+         alert("The number " + evenOdd + " is odd");
       }
 
  // =======> Chapter #9-10 and Task #10  
@@ -694,22 +694,22 @@ var temperature = prompt("Please enter your city's temperature");
 
     if (temperature > 40) {
 
-      // alert("It is too hot outside.")  
+       alert("It is too hot outside.")  
     }
     else if(temperature > 30) {
 
-      // alert("The Weather today is Normal.")
+       alert("The Weather today is Normal.")
     }
     else if(temperature > 20) {
       
-      // alert("Today’s Weather is cool.")
+       alert("Today’s Weather is cool.")
     }
     else if(temperature > 10) {
 
-      // alert("OMG! Today’s weather is so Cool.")
+       alert("OMG! Today’s weather is so Cool.")
     }    
     else {
-      // alert("Please fill an input")      
+       alert("Please fill an input")      
     }
 
  // =======> Chapter #9-10 and Task #11    
@@ -720,26 +720,26 @@ var val2 = +prompt("enter your second value");
 
     if (sign == '+') { //
 
-      // alert(val1 + val2);    
+       alert(val1 + val2);    
     }
     else if(sign == '-') {
 
-      // alert(val1 - val2);
+       alert(val1 - val2);
     }
     else if(sign === '*') {
 
-      // alert(val1 * val2);      
+       alert(val1 * val2);      
     }
     else if(sign === '/') {
 
-      // alert(val1 / val2);      
+       alert(val1 / val2);      
     }
     else if(sign === '%') {
 
-      // alert(val1 % val2);      
+       alert(val1 % val2);      
     }
     else {
-      // alert('Please fill an input') 
+       alert('Please fill an input') 
     }   
     
                    
@@ -770,7 +770,7 @@ var val2 = +prompt("enter your second value");
     }
 
     else {
-      // alert("not working")
+       alert("not working")
     }
 
 // =======> Chapter #12-13 and Task #3
@@ -781,15 +781,15 @@ var sign = number > 0 ? 1 : number == 0 ? 0 : -1;
 
     if (sign == 1){
 
-      //  alert("Oh  your number is so big!" + " " + number);
+        alert("Oh  your number is so big!" + " " + number);
     }
     else if (sign == 0){
 
-      // alert("Hey, there's nothing there!" + " " + number);
+       alert("Hey, there's nothing there!" + " " + number);
     }
     else if (sign == -1){
 
-      // alert("Wow, that thing's so small it might be negative!" + " " + number);
+       alert("Wow, that thing's so small it might be negative!" + " " + number);
     }
 
 // =======> Chapter #12-13 and Task #4
@@ -797,10 +797,10 @@ var sign = number > 0 ? 1 : number == 0 ? 0 : -1;
  var vowel = prompt("Enter a vowel");
 
       if (vowel == 'a'|| vowel =='i'|| vowel == 'e'|| vowel =='o' || vowel == 'u') {
-        // alert("The character is a Vowel");
+         alert("The character is a Vowel");
       }
       else {
-        // alert("The character is a Consonant");
+         alert("The character is a Consonant");
       }
 
 // =======> Chapter #12-13 and Task #5
@@ -812,13 +812,13 @@ var login = prompt(" Please enter his/her correct password ")
 var confirmPassword = prompt("Please enter confirm password")
 
     if(password == login && password == confirmPassword) {
-      // alert("“Correct! The password you entered matches the original password”.")
+       alert("“Correct! The password you entered matches the original password”.")
     } 
     else if(login == "" && confirmPassword == "") {
-      // alert("Please enter your password")
+       alert("Please enter your password")
     }   
     else {
-      // alert("Incorrect password")
+       alert("Incorrect password")
     }
 
 // =======> Chapter #12-13 and Task #6
@@ -890,7 +890,7 @@ var mixedArr = ["Hello", 1 , 2 , 3, "World", true, false]
 
 // =======> Chapter #13-15 and Task #7
 
-// document.write("<h3>  Qualifications </h3>");
+  document.write("<h3>  Qualifications </h3>");
 
 var a = 1;
 
@@ -899,7 +899,7 @@ var degreeArr = ["SSC", "HSC", "BCS" , "BS", "BCOM", "MS",
 
 for (var i = 0; i < degreeArr.length; i++) {
 
-//  document.write(a++ +")" + " " + degreeArr[i]  + "<br/>");
+   document.write(a++ +")" + " " + degreeArr[i]  + "<br/>");
 } 
 
 // =======> Chapter #13-15 and Task #8
@@ -912,16 +912,16 @@ var studentScore = [500 , 500, 500]
 
 var colorNames = ["Aqua", "BurlyWood", "Crimson"];
 
-      // document.write("<h2> Color Names </h2>")
+       document.write("<h2> Color Names </h2>")
 
  for (var i = 0; i < colorNames.length; i++) {
   
-      // document.write(colorNames[i] + "<br/>");      
+       document.write(colorNames[i] + "<br/>");      
   }
   
 // Ask the user what color he/she wants to add to the beginning & add that color to the beginning of the array.
                 
-          //  document.write("<br/>");
+            document.write("<br/>");
 
 var promptOne = prompt("What color he/she wants to add to the starting?");
 
@@ -929,12 +929,12 @@ var promptOne = prompt("What color he/she wants to add to the starting?");
 
      for (var o = 0; o < colorNames.length; o++) {
        
-        // document.write(colorNames[o] + "<br/>");        
+         document.write(colorNames[o] + "<br/>");        
   }  
 
 // Ask the user what color he/she wants to add to the end & add that color to the end of the array.  
 
-            //  document.write("<br/>");             
+              document.write("<br/>");             
  
 var promptTwo = prompt("What color he/she wants to add to the end");
 
@@ -942,17 +942,17 @@ var promptTwo = prompt("What color he/she wants to add to the end");
             
      for (var u = 0; u < colorNames.length; u++) { 
          
-      //  document.write(colorNames[u] + "<br/>");
+        document.write(colorNames[u] + "<br/>");
     }  
      
-      // document.write("<br />")
+       document.write("<br />")
 
 //  Add two more color to the beginning of the array.     
 
        colorNames.unshift("DarkGreen" + "<br />" + "DodgerBlue");         
          
-              //  document.write(colorNames + "<br />");
-              //  document.write("<br />")
+                document.write(colorNames + "<br />");
+                document.write("<br />")
 
 // Delete the first color in the array. Delete the last color in the array.        
    
@@ -960,18 +960,18 @@ var promptTwo = prompt("What color he/she wants to add to the end");
 
      for(var a = 0; a < colorNames.length; a++) {
        
-        // document.write(colorNames[a] + "<br/>");
+         document.write(colorNames[a] + "<br/>");
      }     
-          //  document.write("<br />")
+            document.write("<br />")
 
              colorNames.pop();
 
      for (var g = 0; g < colorNames.length; g++) {
        
-      //  document.write(colorNames[g] + "<br/>");
+        document.write(colorNames[g] + "<br/>");
     }  
 
-    //  document.write("<br />")
+         document.write("<br />")
       
 // 
 
@@ -1077,15 +1077,15 @@ var arr = [[]];
 
  arr = [[0, 1, 2, 3],[1, 0, 1, 2], [2, 1, 0, 1]];
                
-    // document.write( "<br /> <br />" + arr[0] + "<br/>" + arr[1] + "<br/>" + arr[2]);
+      document.write( "<br /> <br />" + arr[0] + "<br/>" + arr[1] + "<br/>" + arr[2]);
                
-    //  document.write("<br/>");
-    //  document.write("<br/>");          
+       document.write("<br/>");
+       document.write("<br/>");          
      
 // =======> Chapter #17-20 and Task #3
 
    for(var j=0; j <= 10; j++) {
-    //  document.write("<br />" + j);
+      document.write("<br />" + j);
    }
 
 // =======> Chapter #17-20 and Task #4
@@ -1094,82 +1094,82 @@ var num = prompt("Enter your favourite number")
   
 var lengOfTable = prompt("Enter the length of the table");
      
-  //  document.write('<br />' + "Multiplication table of " + num + "<br/>");
-  //  document.write("Length " + lengOfTable);
+    document.write('<br />' + "Multiplication table of " + num + "<br/>");
+    document.write("Length " + lengOfTable);
      
-  //  document.write("<br/>");
-    // document.write("<br/>");
+    document.write("<br/>");
+    document.write("<br/>");
       
    for (var i = 1;  i <= lengOfTable; i++) {     
-    //  document.write(num + " x " + i + " = " + num * i + "<br/>");      
+      document.write(num + " x " + i + " = " + num * i + "<br/>");      
    }
-      // document.write("<br/>");
+       document.write("<br/>");
 
 // =======> Chapter #17-20 and Task #5
 
  var newArr = ["apple", "banana", "mango", "orange", "strawberry"];
       
    for (var i = 0; i < newArr.length; i++) {       
-          //  document.write(newArr[i] + "<br/>");
+           document.write(newArr[i] + "<br/>");
       }
       
-      // document.write("<br/>");
+        document.write("<br/>");
       
    for (var u = 0; u < newArr.length; u++) {    
-        //  document.write("Element at index "+ u + " is " + newArr[u] + "<br/>" );    
+         document.write("Element at index "+ u + " is " + newArr[u] + "<br/>" );    
       }
-       
-      // document.write("<br/>");
+        
+       document.write("<br/>");
 
 // =======> Chapter #17-20 and Task #6
 
-  // document.write("<b>Counting:</b>" + "<br/>");
+   document.write("<b>Counting:</b>" + "<br/>");
 
-  //  document.write("<br/>");
+    document.write("<br/>");
    
   for (var t = 0; t <= 15; t++) {  
-        // document.write("  " + t);
+         document.write("  " + t);
  }    
-    // document.write("<br/>");
-    // document.write("<br/>");
+     document.write("<br/>");
+     document.write("<br/>");
    
-//  document.write("<b> Reverse Counting: </b>" + "<br/> <br/>") 
+  document.write("<b> Reverse Counting: </b>" + "<br/> <br/>") 
   
   for (var e = 10; e > 0; e--) {  
-  //  document.write(e + "  ");   
+    document.write(e + "  ");   
  } 
   
-  //  document.write("<br/>");
-  //  document.write("<br/>" +"<b>" + "Even Counting: " + "</b>");
-    // document.write("<br/>" + "<br/>");
+    document.write("<br/>");
+    document.write("<br/>" +"<b>" + "Even Counting: " + "</b>");
+    document.write("<br/>" + "<br/>");
   
   for (var f = 0; f <= 20; f++) {
      
       if (f % 2 === 0) {
       
-      // document.write(f + ", ");
+       document.write(f + ", ");
     }
   }     
-      // document.write("<br/>" + "<br/>");
-      // document.write("<b>" + "Odd Counting: " + "</b>"); 
-      // document.write("<br/>" + "<br/>");    
+       document.write("<br/>" + "<br/>");
+       document.write("<b>" + "Odd Counting: " + "</b>"); 
+       document.write("<br/>" + "<br/>");    
   
   for (var g = 1; g <= 20; g++) {
 
       if (g % 2 === 1) {
       
-      //  document.write(g + ", ");
+         document.write(g + ", ");
       }
   }     
-      // document.write("<br/>" + "<br/>");
-      // document.write("<b>" + "Series: " + "</b>"); 
-      // document.write("<br/>" + "<br/>");
+        document.write("<br/>" + "<br/>");
+        document.write("<b>" + "Series: " + "</b>"); 
+        document.write("<br/>" + "<br/>");
        
   for (var y = 1; y <= 20; y++) {
   
     if (y % 2 === 0) {
     
-    // document.write(y + "k"+ ", ");
+      document.write(y + "k"+ ", ");
     }
   }
 
@@ -1198,13 +1198,13 @@ var myFlag, indeX;
   
   if (myFlag === true) {
       
-      // document.write("<br/> <br /> " + userPrompt + " is available at index " + indeX + " in our bakery <br/>");
+       document.write("<br/> <br /> " + userPrompt + " is available at index " + indeX + " in our bakery <br/>");
      
   }   
    
   else {
    
-  // document.write("<br/>" + "We are sorry." + userPrompt + " is  not available in our bakery <br/> " ); 
+   document.write("<br/>" + "We are sorry." + userPrompt + " is  not available in our bakery <br/> " ); 
    
   }
 
@@ -1222,28 +1222,28 @@ for (var q = 0; q < numberArray.length; q++) {
           largest = numberArray[q];
    }
 }
-        // document.write("<br/>");
-      // document.write("Largest number is " + largest);
+       document.write("<br/>");
+       document.write("Largest number is " + largest);
  
-      // document.write("<br/>");
+       document.write("<br/>");
     
  // =======> Chapter #17-20 and Task #9     
 
  // Finding the smallest number
  
-//  var newNumArray = [24, 53, 78, 91, 12];
+  var newNumArray = [24, 53, 78, 91, 12];
  
-//  var smallest = newNumArray[0];
+  var smallest = newNumArray[0];
  
-//  for (var w = 0; w < newNumArray.length; w++) {
+  for (var w = 0; w < newNumArray.length; w++) {
  
-//       if (smallest > newNumArray[w]) {
-//           smallest = newNumArray[w];
-//    }
-// }   
-    //  document.write("Smallest number is " + smallest);
+        if (smallest > newNumArray[w]) {
+            smallest = newNumArray[w];
+     }
+  }   
+       document.write("Smallest number is " + smallest);
 
-    //  document.write("<br/> <br />");
+       document.write("<br/> <br />");
 
 // // =======> Chapter #17-20 and Task #10
 
