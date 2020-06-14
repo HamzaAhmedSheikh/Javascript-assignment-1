@@ -1002,7 +1002,7 @@ var proFour = prompt("which index he/she wants to delete colors");
 var studentScore = [320, 230, 480, 120];
 
         document.write("<br />" + "<b> Scores Of Students: </b>" + studentScore[0] + "," + studentScore[1] +
-                      "," + studentScore[2] + "," + studentScore[3])
+                      "," + studentScore[2] + "," + studentScore[3] + "<br />")
 
          
 var ascendingOrder =  studentScore.reverse().sort()        
@@ -1032,9 +1032,41 @@ var arr1 =  arr.join(" ");
      
  // =======> Chapter #13-15 and Task #13
 
+ var devices = ["keyboard", "mouse", "printer", "monitor"];
+       
+
+ for (let i = 0; i <= 3; i++) {
+  document.write("Output: " + "<br /> " + devices.shift() + "<br /> " );
+}  
+         document.write('<br />')
+
  // =======> Chapter #13-15 and Task #14
 
+ var devicesArr = ["keyboard", "mouse", "printer", "monitor"];
+
+ for (let i = 0; i <= 3; i++) {
+  document.write("Output: " + "<br /> " + devicesArr.pop() + "<br />" );
+}
+
  // =======> Chapter #13-15 and Task #15
+
+             document.write("<br />")            
+
+ var storePhoneArr = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+  document.write("<select>")
+  
+   document.write("<option>" + storePhoneArr[0] +  "</option>")
+   document.write("<option>" + storePhoneArr[1] +  "</option>")
+   document.write("<option>" + storePhoneArr[2] +  "</option>")
+   document.write("<option>" + storePhoneArr[3] +  "</option>")
+   document.write("<option>" + storePhoneArr[4] +  "</option>")
+   document.write("<option>" + storePhoneArr[5] +  "</option>")
+
+  document.write("</select>")
+   
+         document.write("<br />")
+         document.write("<br />")
 
 
  // =======> Chapter #17-20 and Task #1
